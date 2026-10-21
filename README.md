@@ -19,6 +19,7 @@
 | `05_Notion_CRM.md` | схема и правила CRM в Notion |
 | `06_Рутины.md` | расписания и тексты рутин |
 | `07_Скрипт_tender_finder.md` | установка, запуск, «если скрипт сломался» |
+| `requisites_template.md` | шаблон реквизитов участника (ИП/ООО) для заявок и документов «Документов»; заполненный файл — `/workspace/tenders/requisites.md`, в репозиторий не класть |
 | `descriptions.json` | имена и описания ботов для CreateAgent |
 | `tender_finder/` | скрипт поиска закупок (Python, только стандартная библиотека) |
 | `api/` | спецификация GosPlan API (fz44.yaml, fz223.yaml) и черновик fetch.py |

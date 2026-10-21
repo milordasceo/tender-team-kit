@@ -3,3 +3,4 @@ seen.json
 __pycache__/
 *.zip
 cache/
+requisites.md
