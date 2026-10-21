@@ -1,0 +1,70 @@
+# Task: build `tender_finder.py` — daily search of small goods-supply tenders (44-ФЗ + 223-ФЗ), Novosibirsk region
+
+Work in the current directory (/workspace/tenders/tender_finder). Python 3.13, STDLIB ONLY (urllib, json, csv, argparse, zoneinfo, re, time). Do NOT call the live API more than ~3 times while developing (rate limit 10 req/min shared); use the samples in ./dev_samples/ to learn the JSON structure:
+- dev_samples/fz44_list_sample.json — items from GET /fz44/purchases (list). NOTE: list datetimes like collecting_finished_at/published_at are naive UTC.
+- dev_samples/0151100007126000035.json, 0151100004726000009.json — GET /fz44/purchases/{num}/notification (card). Card datetimes carry explicit offsets (e.g. endDT "2026-11-16T08:00:00+07:00").
+- dev_samples/fz223_32616491361.json — GET /fz223/purchases/{num} (223 card; original document(s) in `docs[].source`; list items have the same top-level fields). 223 datetimes (submission_close_at, submissionCloseDateTime) are naive and in the CUSTOMER'S LOCAL time; customer.mainInfo.timeZone.offset is "MSK+N" offset (N hours) so UTC offset = 3+N. If offset missing, assume +07:00 and mark it.
+- Reference code: ../fetch.py (older draft: rate limiting, walk() helper, summarize()). OpenAPI specs: ../fz44.yaml, ../fz223.yaml.
+
+## API
+BASE default https://v2test.gosplan.info (override via config/env GOSPLAN_BASE; optional header X-API-Key from env GOSPLAN_KEY). No key needed.
+Rate limit: 10 requests/minute. Implement a global throttle: keep ≥6.5 s between requests (configurable), read headers x-ratelimit-remaining-minute / ratelimit-reset; on HTTP 429 sleep ratelimit-reset (or retry-after, or 60) +2 s and retry; retry network errors/5xx with backoff (max ~6 tries); 404 -> None. Log each wait to stderr.
+- 44 list: GET /fz44/purchases?region=R&stage=S&max_price_ge=..&max_price_le=..&collecting_finished_after=<now UTC>Z&published_after=<since ISO with +07:00>&published_before=<until ISO with +07:00>&limit=100&skip=N&sort=published_at_desc. Paginate until a page < limit or max_pages (config, default 10). Region may be given multiple times.
+- 44 card: GET /fz44/purchases/{num}/notification
+- 223 list: GET /fz223/purchases with the same params EXCEPT deadline param is submission_close_after (not collecting_finished_after); published_after/published_before/stage/region/max_price_* exist. 
+- 223 card: GET /fz223/purchases/{num}  (use the latest doc in `docs` whose source has lots; ignore doc types that are protocols/explanations).
+- Also filter client-side on published_at (list value is naive UTC for 44; for 223 treat list published_at like 44 = naive... uncertain, so rely on server-side published_after and do client-side check only for 44).
+- Cache cards to ./cache/{law}/{num}.json; reuse cache if file younger than cache_ttl_hours (config, default 12) to save requests.
+
+## Config file: ./config.json (create it, with comments-free JSON; CLI args override)
+Defaults:
+- laws: ["44","223"]
+- region: [54]
+- city_only: false, city_regex: matches г. Новосибирск in a delivery address (e.g. `(?i)(г\.?|город|гор\.)\s*Новосибирск(?!ая|ий|ого|ой)` OR address containing "Новосибирск" but NOT preceded only by oblast/region forms... implement something sound and test it on strings: "Новосибирская область, г. Новосибирск, ул. Ленина 1" -> True; "630099, Новосибирская обл, Новосибирск г, Красный пр-кт, 67" -> True; "Новосибирская область, г. Карасук" -> False; "Новосибирский р-н, Верх-Тулинский сельсовет" -> False; "Российская Федерация, 630007, Новосибирская область, г.о. город Новосибирск, г Новосибирск, ул Coвeтская, д. 18" -> True).
+- price_min 10000, price_max 80000
+- stage 1 (1=подача заявок, 2=работа комиссии, 3=завершена, 4=отменена; CLI also accepts names "подача"/"комиссия"...)
+- since: null => start (00:00) of YESTERDAY in Asia/Krasnoyarsk; until: null => now. CLI --since/--until accept YYYY-MM-DD (local date, 00:00 / 23:59:59 Asia/Krasnoyarsk) or full ISO.
+- max_items 2 (max number of positions in the specification; 0 = no limit)
+- include_keywords [] (if non-empty, keep only tenders whose subject or position names match any, case-insensitive substring)
+- exclude_keywords [] (user extras)
+- stop_words: list of regex fragments (case-insensitive) that mark NOT goods supply: services, works, medicines, medical devices, food. Fill a good list, e.g.: услуг, оказани, выполнени, работ(?!ник|ающ|оспособ)  [careful not to kill "рабочих перчаток" -> use \bработ(ы|а|ам|ами|ах)?\b], ремонт, техническ\w* обслуживан, обслуживани, монтаж, установк, изготовлени, аренд, подписк, страхов, перевоз, транспортн\w* услуг, вывоз, утилизац, охран, уборк, обучени, лекарствен, препарат, медицинск, медиздели, изделий медицинского, реагент, стоматолог, шприц, катетер, перевязоч, бинт, лабораторн\w* диагност, тест-систем, продукт\w* питани, питани[ея], пищев, мяс, молок, молочн, хлеб, овощ, фрукт, кондитер, круп, бакале, рыб, колбас, яйц, сахар, масл\w* сливочн, сок, вода питьев, консерв, энергии, электроэнерги, тепло, газоснабж, водоснабж, топлив... (fuel is goods: do NOT exclude fuel by default). Keep "медицинск" but note it can match e.g. "медицинского кабинета мебель" — acceptable.
+- okpd2_exclude_prefixes: ["01","02","03","10","11","12","21","26.6","32.50","35","36","37","38","39","41","42","43","45","46","47","49","50","51","52","53","55","56","58.2","59","60","61","62","63","64","65","66","68","69","70","71","72","73","74","75","77","78","79","80","81","82","84","85","86","87","88","90","91","92","93","94","95","96","97","98","99"]  (KTRU codes start with an OKPD2 code, apply the same prefixes). Also exclude 44 cards that contain drugPurchaseObjectsInfo (medicines).
+- cities etc. as above; base_url; min_interval_s 6.5; max_pages 10; cache_ttl_hours 12; out_dir "out"; seen_file "seen.json".
+
+## Pipeline
+1. List (per law, per region) -> dedupe by number.
+2. Cheap prefilter on list item: price in range; stop_words / exclude_keywords on object_info; any okpd2/ktru code with excluded prefix -> drop; if max_items>0 and number of DISTINCT codes in okpd2+ktru (normalize KTRU to its full code) > max_items -> drop (distinct codes ≤ positions, so this is safe); include_keywords check deferred to card (position names); seen numbers dropped unless --ignore-seen.
+3. Fetch card for the rest; parse into a normalized record; then final filters: positions count ≤ max_items; stop_words/exclude on position names + subject; OKPD2 prefixes of positions; include_keywords on subject+positions; city_only on delivery address(es); deadline still in the future.
+4. Write outputs, update seen.json (unless --no-save-seen or --ignore-seen... define: --ignore-seen = don't skip seen; --no-save-seen = don't write). seen.json = {"<law>:<num>": "<first seen ISO date>"}.
+5. Print a funnel summary to stderr (counts at each step per law), and elapsed time.
+
+## Normalized record fields (CSV columns in this order, Russian headers)
+закон (44-ФЗ/223-ФЗ); номер; ссылка; предмет; позиции (each "name — qty unit", joined with " | "); кол-во позиций; НМЦК (number); цена за единицу (44: per-position price, joined " | "; 223: lotItem price if present; if absent and exactly one position with qty -> НМЦК/qty marked "≈… (НМЦК/кол-во)"; else empty); заказчик (full name); адрес поставки; окончание подачи (Asia/Krasnoyarsk, "DD.MM.YYYY HH:MM"); способ; площадка; обеспечение заявки %; обеспечение контракта %; СМП; нацрежим; опубликовано (Asia/Krasnoyarsk).
+- Link: 44 -> commonInfo.href if present else https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=NUM ; 223 -> https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=NUM
+- 44 parsing: positions from notificationInfo.purchaseObjectsInfo.(notDrugPurchaseObjectsInfo|drugPurchaseObjectsInfo).purchaseObject (dict or list): name (or KTRU.name), quantity.value, OKEI.name (or nationalCode), price, sum, OKPD2.OKPDCode or KTRU.code, restrictionsInfo flags. Customer: purchaseObject customerQuantities / customerRequirementsInfo...customer.fullName, fallback purchaseResponsibleInfo.responsibleOrgInfo.fullName. Delivery address: walk for GARInfo.GARAddress and deliveryPlace strings (dedupe). Deadline: procedureInfo.collectingInfo.endDT. Method: commonInfo.placingWay.name; platform: commonInfo.ETP.name. Guarantees: customerRequirementsInfo...applicationGuarantee / contractGuarantee: use `part` (%) if present, else `amount` -> compute % of НМЦК rounded 2 and show "X% (N ₽)"; absent -> "нет". СМП: preferensesInfo/requirementsInfo shortName/name: "ч. 3 ст. 30"/PVS33044 => "только СМП/СОНКО"; "ч. 5 ст. 30" => "субподряд СМП"; else "нет". Нацрежим: per item restrictionsInfo isProhibitionForeignPurchaseObjects=="true" -> "запрет", isRestrictForeignPurchaseObjects -> "ограничение", also look for any keys containing "preferense"/"Preference" re: national regime (преимущество) -> "преимущество"; aggregate unique values, "нет" if none. Inspect the samples to find exact keys; use the generic walk() helper where structure varies.
+- 223 parsing: source = latest notice doc. positions: lots.lot (dict or list).lotData.lotItems.lotItem: okpd2.name (+ additionalInfo/commodityName if present) — qty, okei.name; НМЦК lotData.initialSum (fallback max_price); customer source.customer.mainInfo.fullName; address lotData.deliveryPlace.address; deadline submissionCloseDateTime (customer local tz, see above); method purchaseCodeName; platform electronicPlaceInfo.name; guarantees: search lot/lotData for keys about application/contract security (e.g. applicationSupplyNeeded, applicationSupplySumm, contractExecutionSupplyNeeded..., inspect sample/spec; if not found -> "н/д (см. документацию)"); СМП: purchaseCodeName/purchase_type mentions малого/SMBO/MSP -> "только МСП", else "нет"; нацрежим: lotItems prohibitionNationalRegime/constraintNationalRegime/superiorityNationalRegime (lotItems-level superiority flag too) -> "запрет"/"ограничение"/"преимущество"/"нет". If multiple lots: one record per lot? Simpler: treat each lot as separate record with number "NUM лот K" only if >1 lot.
+
+## Output
+- out/YYYY-MM-DD.csv (run date in Asia/Krasnoyarsk), UTF-8 with BOM, delimiter ';' (Excel RU). Overwrite if same day re-run but MERGE: if file exists today, append new rows not already present (by закон+номер).
+- out/YYYY-MM-DD.md — short Russian report: header with run time (Asia/Krasnoyarsk), filter parameters, funnel counts, then per tender a compact block: **номер** — предмет (link), НМЦК, позиции, заказчик, адрес, окончание, способ/площадка, обеспечения, СМП, нацрежим. If none found, say so.
+- Also print the paths at the end.
+
+## CLI (argparse, Russian help texts)
+--config PATH, --laws 44,223, --region (repeatable), --city-only/--no-city-only, --price-min, --price-max, --stage, --since, --until, --max-items, --include (repeatable or comma list), --exclude (repeatable or comma list), --ignore-seen, --no-save-seen, --max-pages, --out-dir, --offline-test (runs parser self-tests on dev_samples and city regex test strings, no network), -v/--verbose.
+`python3 tender_finder.py` with no args = daily run with config defaults. Also create executable wrapper `./run.sh` that cd's to the script dir and runs it.
+
+## README.md in RUSSIAN
+What it does, source (ГосПлан mirror, why not zakupki.gov.ru), install (nothing), daily run command, all options with examples, config.json fields, output format & columns, seen.json behaviour, cron example (e.g. 08:00 local), limitations (rate limit → runtime, 223 time zone assumption, filters are heuristic, attachments/ТЗ not downloadable from zakupki.gov.ru from foreign IP, v2test is a test instance).
+
+Code quality: single file tender_finder.py, functions small and robust (every field access defensive; one bad card must not crash the run — log and continue). When done, run `python3 tender_finder.py --offline-test` and fix failures. Do not run a full live search (I will run it).
+
+## ADDITION (high priority): procedure types filter — no auctions by default
+The user does not take part in auctions. Add config `types` and CLI `--types`:
+- default value "no-auctions": exclude electronic/open auctions; keep requests for quotations (запрос котировок, 44: epNotificationEZK2020/epNotificationEZK; 223: purchaseNoticeZK, purchaseNoticeZKESMBO), запрос предложений (epNotificationEZP, purchaseNoticeZPESMBO), конкурсы (epNotificationEOK2020/EOK/EOKD/EOKOU, purchaseNoticeOK, purchaseNoticeKESMBO), purchaseNoticeEP and generic purchaseNotice etc.
+- config `auction_types`: ["epNotificationEF2020","epNotificationEF","epNotificationEA44","purchaseNoticeAE","purchaseNoticeAE94FZ","purchaseNoticeAESMBO","purchaseNoticeOA"]. Also after the card is fetched, if the method name (44 placingWay.name / 223 purchaseCodeName) contains "аукцион" (case-insensitive) treat it as an auction too (catches generic purchaseNotice).
+- `--types all` = no type filtering; `--types no-auctions` = default; `--types epNotificationEZK2020,purchaseNoticeZK` = explicit whitelist of purchase_type values (comma list).
+- Apply the type filter on the LIST stage (cheap, before fetching cards) and again by method name after the card.
+- Before any filtering, count list items by (law, purchase_type) and print this distribution to stderr, include it in the .md report (with a human Russian label for each type, e.g. epNotificationEF2020 = «Электронный аукцион», epNotificationEZK2020 = «Запрос котировок в эл. форме», epNotificationEOK2020 = «Открытый конкурс в эл. форме», purchaseNoticeAESMBO = «Аукцион в эл. форме, только МСП», etc.), and save it to out/YYYY-MM-DD.types.json.
+- CSV must contain the procurement method column «способ» (method name) and also a column «тип (purchase_type)».
+- Funnel counts must show how many were dropped as auctions.
+- Add an option `--count-types` that only does the list stage (no price/stage filter changes: uses current region/stage/price/since/until filters) and prints the type distribution, without fetching cards and without touching seen.json.

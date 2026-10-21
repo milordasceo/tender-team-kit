@@ -1,0 +1,5 @@
+out/
+seen.json
+__pycache__/
+*.zip
+cache/
