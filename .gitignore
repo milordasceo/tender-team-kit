@@ -1,6 +1,26 @@
+# Рабочие файлы — в публичный репозиторий не попадают (только шаблоны!)
 out/
 seen.json
 __pycache__/
+*.pyc
 *.zip
+*.log
+logs/
 cache/
+state/
+docs/
+n/
 requisites.md
+notion.md
+team_ids.json
+search_sent.txt
+card_template.md
+price_report_*.md
+docs_report_*.md
+*.bak*
+.env
+
+# Скрипт: разработка и реальные ответы API — только локально
+tender_finder/dev/
+tender_finder/dev_samples/*
+!tender_finder/dev_samples/example_*.json

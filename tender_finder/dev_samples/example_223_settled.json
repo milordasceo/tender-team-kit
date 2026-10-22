@@ -1,0 +1,765 @@
+{
+ "_пример": "ОБЕЗЛИЧЕННЫЙ ВЫДУМАННЫЙ ПРИМЕР для офлайн-теста: номера, заказчики, ИНН, адреса и контакты заменены.",
+ "submission_close_at": "2026-10-28T11:00:00",
+ "currency_code": "RUB",
+ "customer": "2258266321",
+ "delivery_places": [],
+ "doc_created_at": "2026-10-21T05:50:19.948000",
+ "doc_updated_at": "2026-10-21T05:50:19.948000",
+ "max_price": 38576.7,
+ "object_info": "Поставка фильтров для автомобилей учреждения",
+ "okpd2": [
+  "28.29.82.120"
+ ],
+ "placer": "2258266321",
+ "plan_numbers": [
+  "3750454819"
+ ],
+ "position_numbers": [
+  "62"
+ ],
+ "published_at": "2026-10-21T10:38:16",
+ "purchase_number": "00000000007",
+ "purchase_type": "purchaseNoticeZKESMBO",
+ "region": 54,
+ "stage": 1,
+ "updated_at": "2026-10-21T10:38:16",
+ "docs": [
+  {
+   "doc_type": "purchaseNoticeZKESMBO",
+   "published_at": "2026-10-21T10:38:16",
+   "source": {
+    "guid": "00000000-0000-0000-0000-000000000000",
+    "createDateTime": "2026-10-21T10:36:47",
+    "urlEIS": "https://lk.zakupki.gov.ru/223/purchase/private/purchase/notice-info/details.html?noticeInfoId=20385320",
+    "urlVSRZ": "localhost",
+    "registrationNumber": "00000000007",
+    "name": "Поставка фильтров для автомобилей учреждения",
+    "customer": {
+     "mainInfo": {
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+      "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+      "iko": "32555244363452251513",
+      "inn": "2258266321",
+      "kpp": "072016765",
+      "ogrn": "6580345723293",
+      "legalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "postalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "email": "example@example.com",
+      "okato": "00000000013",
+      "okopf": "75203",
+      "okopfName": "Государственные бюджетные учреждения субъектов Российской Федерации",
+      "okpo": "01365153",
+      "okfs": "13",
+      "okfsName": "Собственность субъектов Российской Федерации",
+      "timeZone": {
+       "offset": "4",
+       "name": "МСК+4 (СГВ+7) Красноярск, Новосибирск"
+      },
+      "region": "НОВОСИБИРСКАЯ ОБЛАСТЬ",
+      "budgetAgencyType": "SUBJECT"
+     }
+    },
+    "purchaseMethodCode": "200610",
+    "purchaseCodeName": "Запрос котировок в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+    "placer": {
+     "mainInfo": {
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+      "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+      "iko": "32555244363452251513",
+      "inn": "2258266321",
+      "kpp": "072016765",
+      "ogrn": "6580345723293",
+      "legalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "postalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "email": "example@example.com",
+      "okato": "00000000013",
+      "okopf": "75203",
+      "okopfName": "Государственные бюджетные учреждения субъектов Российской Федерации",
+      "okpo": "01365153",
+      "okfs": "13",
+      "okfsName": "Собственность субъектов Российской Федерации",
+      "timeZone": {
+       "offset": "4",
+       "name": "МСК+4 (СГВ+7) Красноярск, Новосибирск"
+      },
+      "region": "НОВОСИБИРСКАЯ ОБЛАСТЬ",
+      "budgetAgencyType": "SUBJECT"
+     }
+    },
+    "contact": {
+     "firstName": "П.",
+     "middleName": "П.",
+     "lastName": "Примеров",
+     "phone": "70000000000",
+     "email": "example@example.com"
+    },
+    "publicationDateTime": "2026-10-21T10:38:16",
+    "documentationDelivery": {
+     "deliveryStartDateTime": "2026-10-21",
+     "deliveryEndDateTime": "2026-10-27",
+     "place": "Извещение в электронной форме доступно для ознакомления на сайтах www.zakupki.gov.ru, http://www.rts-tender.ru",
+     "procedure": "Извещение в электронной форме доступно для ознакомления на сайтах www.zakupki.gov.ru, http://www.rts-tender.ru"
+    },
+    "status": "P",
+    "version": "1",
+    "notDishonest": "true",
+    "attachments": {
+     "totalDocumentsCount": "4",
+     "document": [
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-21T06:36:48",
+       "fileName": "Приложение №3 ПД.docx",
+       "description": "Проект договора",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      },
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-21T06:36:50",
+       "fileName": "Приложение №1 ТЗ.docx",
+       "description": "Описание предмета закупки",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      },
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-21T06:36:51",
+       "fileName": "Приложение №4 Форма котировочной заявки СМП.docx",
+       "description": "Документация о закупке",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      },
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-21T06:36:52",
+       "fileName": "Приложение№2 НМЦК.doc",
+       "description": "Обоснование начальной (максимальной) цены договора",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      }
+     ]
+    },
+    "modificationDate": "2026-10-21T10:37:53",
+    "saveUserId": "3240255",
+    "deliveryPlaceIndication": "SINGLE_PLACE",
+    "emergency": "false",
+    "jointPurchase": "false",
+    "antimonopolyDecisionTaken": "false",
+    "applSubmisionStartDate": "2026-10-21",
+    "applSubmisionOrder": "В соответствии с извещением. Заявка на участие в запросе котировок с участием субъектов малого и среднего предпринимательства предоставляется участником в виде электронного документа посредством системы электронного документооборота с использованием функционала электронной площадки в соответствии с регламентом электронной площадки. Место подачи котировочных заявок: ООО «РТС-тендер» http://www.rts-tender.ru",
+    "summingupOrder": "В соответствии с извещением. Победителем запроса котировок с участием субъектов малого и среднего предпринимательства признается участник запроса котировок с участием субъектов малого и среднего предпринимательства, подавший заявку на участие в таком запросе котировок с участием субъектов малого и среднего предпринимательства, которая соответствует всем требованиям, установленным в извещении о проведении запроса котировок с участием субъектов малого и среднего предпринимательства, в которой указана наиболее низкая цена товара, работы, услуги и которой в протоколе присвоен первый порядковый номер.",
+    "electronicPlaceInfo": {
+     "name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+     "url": "http://www.rts-tender.ru",
+     "electronicPlaceId": "6",
+     "specialized": "false"
+    },
+    "placingProcedure": {
+     "summingupDateTime": "2026-10-28T11:30:00",
+     "summingupPlace": "В соответствии с извещением. Заявка на участие в запросе котировок с участием субъектов малого и среднего предпринимательства предоставляется участником в виде электронного документа посредством системы электронного документооборота с использованием функционала электронной площадки в соответствии с регламентом электронной площадки. Место подачи котировочных заявок: ООО «РТС-тендер» http://www.rts-tender.ru"
+    },
+    "submissionCloseDateTime": "2026-10-28T11:00:00",
+    "publicationPlannedDate": "2026-10-21",
+    "templateVersion": "2",
+    "templateStructure": {
+     "level": [
+      {
+       "tabLevel": "NOTICE",
+       "tab": [
+        {
+         "tabOrdinal": "1",
+         "tabName": "Общая информация",
+         "fixedName": "MAIN",
+         "section": [
+          {
+           "sectionOrdinal": "1",
+           "sectionName": "Сведения о состоянии извещения",
+           "fixedName": "MAIN_STATUS"
+          },
+          {
+           "sectionOrdinal": "2",
+           "sectionName": "Сведения о заказчике",
+           "fixedName": "MAIN_CUSTOMER"
+          },
+          {
+           "sectionOrdinal": "3",
+           "sectionName": "Сведения об обособленном подразделении",
+           "fixedName": "MAIN_DETACHED_DEPARTMENT"
+          },
+          {
+           "sectionOrdinal": "4",
+           "sectionName": "Cведения о закупке",
+           "fixedName": "MAIN_PURCHASE"
+          },
+          {
+           "sectionOrdinal": "5",
+           "sectionName": "Требования к участникам закупки",
+           "fixedName": "MAIN_PARTICIPANT_REQUIREMENTS"
+          },
+          {
+           "sectionOrdinal": "6",
+           "sectionName": "Контактная информация",
+           "fixedName": "MAIN_CONTACTS"
+          },
+          {
+           "sectionOrdinal": "7",
+           "sectionName": "Дополнительная информация",
+           "fixedName": "MAIN_ADDITIONAL_INFO"
+          }
+         ]
+        },
+        {
+         "tabOrdinal": "2",
+         "tabName": "Порядок проведения процедуры",
+         "fixedName": "COMMISSION",
+         "section": [
+          {
+           "sectionOrdinal": "1",
+           "sectionName": "Размещение извещения",
+           "fixedName": "COMMISSION_PUBLISH"
+          },
+          {
+           "sectionOrdinal": "2",
+           "sectionName": "Подача заявок",
+           "fixedName": "APPLICATIONS_SUBMISSION"
+          },
+          {
+           "sectionOrdinal": "4",
+           "sectionName": "Обсуждение функциональных характеристик",
+           "fixedName": "FUNCTIONAL_CHARACTERISTIC"
+          },
+          {
+           "sectionOrdinal": "5",
+           "sectionName": "Обсуждение предложений о функциональных характеристиках",
+           "fixedName": "FUNCTIONAL_CHARACTERISTIC_DISCUSSION"
+          },
+          {
+           "sectionOrdinal": "6",
+           "sectionName": "Рассмотрение и оценка окончательных предложений о функциональных характеристиках",
+           "fixedName": "FUNCTIONAL_CHARACTERISTIC_ASSESSMENT_AND_FINAL_OFFER"
+          },
+          {
+           "sectionOrdinal": "7",
+           "sectionName": "Рассмотрение первых частей заявок",
+           "fixedName": "APPLICATIONS_EXAM_FIRST_PART"
+          },
+          {
+           "sectionOrdinal": "8",
+           "sectionName": "Подача ценовых предложений",
+           "fixedName": "PRICE_OFFER_SUBMISSION"
+          },
+          {
+           "sectionOrdinal": "9",
+           "sectionName": "Сопоставление ценовых предложений",
+           "fixedName": "PRICE_OFFER_COMPARISION"
+          },
+          {
+           "sectionOrdinal": "10",
+           "sectionName": "Подача дополнительных ценовых предложений",
+           "fixedName": "ADDITIONAL_PRICE_OFFER_APPLICATION"
+          },
+          {
+           "sectionOrdinal": "11",
+           "sectionName": "Сопоставление дополнительных ценовых предложений",
+           "fixedName": "ADDITIONAL_PRICE_OFFER_COMPARISION"
+          },
+          {
+           "sectionOrdinal": "12",
+           "sectionName": "Квалификационный отбор",
+           "fixedName": "QUALIFYING_SELECTION"
+          },
+          {
+           "sectionOrdinal": "13",
+           "sectionName": "Рассмотрение вторых частей заявок",
+           "fixedName": "APPLICATIONS_EXAM_SECOND_PART"
+          },
+          {
+           "sectionOrdinal": "14",
+           "sectionName": "Рассмотрение котировочных заявок",
+           "fixedName": "QUTATION_EXAMINATION_APP"
+          },
+          {
+           "sectionOrdinal": "15",
+           "sectionName": "Форма котировочной заявки",
+           "fixedName": "QUTATION_EXAMINATION_APP_FORM"
+          },
+          {
+           "sectionOrdinal": "16",
+           "sectionName": "Вскрытие конвертов",
+           "fixedName": "ENVELOPE_OPENING"
+          },
+          {
+           "sectionOrdinal": "17",
+           "sectionName": "Проведение аукциона",
+           "fixedName": "AUCTION_EXECUTION"
+          },
+          {
+           "sectionOrdinal": "18",
+           "sectionName": "Проведение аукциона в электронной форме",
+           "fixedName": "EAUCTION_EXECUTION"
+          },
+          {
+           "sectionOrdinal": "19",
+           "sectionName": "Подведение итогов",
+           "fixedName": "SUMMARIZING"
+          }
+         ]
+        },
+        {
+         "tabOrdinal": "3",
+         "tabName": "Список лотов",
+         "fixedName": "LOTS",
+         "section": {
+          "sectionOrdinal": "1",
+          "sectionName": "Сведения о лотах",
+          "fixedName": "LOTS_INFO"
+         }
+        },
+        {
+         "tabOrdinal": "6",
+         "tabName": "Документация",
+         "fixedName": "DOCS",
+         "section": [
+          {
+           "sectionOrdinal": "1",
+           "sectionName": "Предоставление документации",
+           "fixedName": "DOCS_INFO"
+          },
+          {
+           "sectionOrdinal": "2",
+           "sectionName": "Файлы документации",
+           "fixedName": "DOCS_FILES"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tabLevel": "LOT",
+       "tab": {
+        "tabOrdinal": "4",
+        "tabName": "Формирование лота",
+        "fixedName": "LOT_INFORMATION",
+        "section": [
+         {
+          "sectionOrdinal": "1",
+          "sectionName": "Общая информация о лоте",
+          "fixedName": "LOT_INFO"
+         },
+         {
+          "sectionOrdinal": "2",
+          "sectionName": "Информация о товаре, работе, услуге",
+          "fixedName": "LOT_GOODS"
+         },
+         {
+          "sectionOrdinal": "3",
+          "sectionName": "Место поставки",
+          "fixedName": "LOT_PLACE"
+         },
+         {
+          "sectionOrdinal": "4",
+          "sectionName": "Требования к обеспечению заявки",
+          "fixedName": "LOT_REQUIREMENTS"
+         },
+         {
+          "sectionOrdinal": "5",
+          "sectionName": "Требования к обеспечению исполнения договора",
+          "fixedName": "LOT_COMPLETING_REQUIREMENTS"
+         }
+        ]
+       }
+      },
+      {
+       "tabLevel": "LOT_CUSTOMER",
+       "tab": {
+        "tabOrdinal": "5",
+        "tabName": "Формирование сведений по заказчику",
+        "fixedName": "LOT_CUSTOMER",
+        "section": [
+         {
+          "sectionOrdinal": "1",
+          "sectionName": "Общая информация по Заказчику",
+          "fixedName": "LOT_CUSTOMER_INFO"
+         },
+         {
+          "sectionOrdinal": "2",
+          "sectionName": "Информация о товаре, работе, услуге",
+          "fixedName": "LOT_CUSTOMER_GOODS"
+         },
+         {
+          "sectionOrdinal": "3",
+          "sectionName": "Место поставки",
+          "fixedName": "LOT_CUSTOMER_PLACE"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "lots": {
+     "lot": {
+      "guid": "00000000-0000-0000-0000-000000000000",
+      "ordinalNumber": "1",
+      "lotEditEnabled": "true",
+      "lotData": {
+       "subject": "Поставка фильтров для автомобилей учреждения",
+       "currency": {
+        "code": "RUB",
+        "digitalCode": "643",
+        "name": "Российский рубль"
+       },
+       "initialSum": "38576.7",
+       "deliveryPlace": {
+        "state": "Сибирский федеральный округ",
+        "region": "Новосибирская   обл",
+        "regionOkato": "47590555224",
+        "address": "Поставка Товара осуществляется в рабочие дни (понедельник - пятница) с 9.00 до 15.00, местного времени по адресу г. Новосибирск, ул. Примерная, 2."
+       },
+       "lotItems": {
+        "newCodes": "true",
+        "superiorityNationalRegime": "false",
+        "lotItem": [
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "1",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "8",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "2",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "8",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "3",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "8",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "4",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "5",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "6",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "7",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "8",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "9",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "10",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "11",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "12",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "13",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "14",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "15",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "16",
+          "okpd2": {
+           "code": "28.29.82.120",
+           "name": "Комплектующие (запасные части) машин и аппаратов для фильтрации или очистки жидкостей или газов, не имеющие самостоятельных группировок"
+          },
+          "okved2": {
+           "code": "28.29",
+           "name": "Производство прочих машин и оборудования общего назначения, не включенного в другие группировки"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         }
+        ]
+       },
+       "forSmallOrMiddle": "true",
+       "excludePurchaseFromPlan": "false",
+       "subcontractorsRequirement": "false",
+       "ignoredPurchase": "false",
+       "centralized": "false"
+      },
+      "deliveryPlaceIndication": "GL",
+      "jointLotData": {
+       "jointLot": "false"
+      },
+      "lotPlanInfo": {
+       "planRegistrationNumber": "3750454819",
+       "planGuid": "00000000-0000-0000-0000-000000000000",
+       "positionNumber": "62",
+       "lotPlanPosition": "COMMODITY",
+       "positionGuid": "00000000-0000-0000-0000-000000000000"
+      },
+      "cancelled": "false"
+     }
+    }
+   }
+  }
+ ]
+}

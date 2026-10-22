@@ -1,0 +1,1084 @@
+{
+ "_пример": "ОБЕЗЛИЧЕННЫЙ ВЫДУМАННЫЙ ПРИМЕР для офлайн-теста: номера, заказчики, ИНН, адреса и контакты заменены.",
+ "submission_close_at": "2026-10-29T08:00:00",
+ "currency_code": "RUB",
+ "customer": "0315572427",
+ "delivery_places": [],
+ "doc_created_at": "2026-10-21T09:50:58.167000",
+ "doc_updated_at": "2026-10-21T09:50:58.167000",
+ "max_price": 38112.0,
+ "object_info": "Поставка расходных материалов и запасных частей для автотранспорта",
+ "okpd2": [
+  "29.32.30.390"
+ ],
+ "placer": "0315572427",
+ "plan_numbers": [
+  "0213110730"
+ ],
+ "position_numbers": [
+  "57"
+ ],
+ "published_at": "2026-10-21T14:06:41",
+ "purchase_number": "00000000003",
+ "purchase_type": "purchaseNoticeAESMBO",
+ "region": 54,
+ "stage": 1,
+ "updated_at": "2026-10-21T14:06:41",
+ "docs": [
+  {
+   "doc_type": "purchaseNoticeAESMBO",
+   "published_at": "2026-10-21T14:06:41",
+   "source": {
+    "guid": "00000000-0000-0000-0000-000000000000",
+    "createDateTime": "2026-10-21T14:05:03",
+    "urlEIS": "https://lk.zakupki.gov.ru/223/purchase/private/purchase/notice-info/details.html?noticeInfoId=20386470",
+    "urlVSRZ": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4070178",
+    "registrationNumber": "00000000003",
+    "name": "Поставка расходных материалов и запасных частей для автотранспорта",
+    "customer": {
+     "mainInfo": {
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+      "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+      "iko": "95324544609530371154",
+      "inn": "0315572427",
+      "kpp": "589103273",
+      "ogrn": "4023141552945",
+      "legalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "postalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "email": "example@example.com",
+      "okato": "00000000011",
+      "okopf": "65243",
+      "okopfName": "Муниципальные унитарные предприятия",
+      "okpo": "58130543",
+      "okfs": "14",
+      "okfsName": "Муниципальная собственность",
+      "timeZone": {
+       "offset": "4",
+       "name": "МСК+4 (СГВ+7) Красноярск, Новосибирск"
+      },
+      "region": "НОВОСИБИРСКАЯ ОБЛАСТЬ"
+     }
+    },
+    "purchaseMethodCode": "200609",
+    "purchaseCodeName": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+    "placer": {
+     "mainInfo": {
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+      "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+      "iko": "95324544609530371154",
+      "inn": "0315572427",
+      "kpp": "589103273",
+      "ogrn": "4023141552945",
+      "legalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "postalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "email": "example@example.com",
+      "okato": "00000000011",
+      "okopf": "65243",
+      "okopfName": "Муниципальные унитарные предприятия",
+      "okpo": "58130543",
+      "okfs": "14",
+      "okfsName": "Муниципальная собственность",
+      "timeZone": {
+       "offset": "4",
+       "name": "МСК+4 (СГВ+7) Красноярск, Новосибирск"
+      },
+      "region": "НОВОСИБИРСКАЯ ОБЛАСТЬ"
+     }
+    },
+    "contact": {
+     "firstName": "П.",
+     "middleName": "П.",
+     "lastName": "Примеров",
+     "phone": "70000000000",
+     "email": "example@example.com"
+    },
+    "publicationDateTime": "2026-10-21T14:06:41",
+    "documentationDelivery": {
+     "deliveryStartDateTime": "2026-10-21",
+     "deliveryEndDateTime": "2026-10-29",
+     "place": "Электронная площадка РТС-тендер (http://www.rts-tender.ru) и Официальный сайт (http://zakupki.gov.ru)",
+     "procedure": "В электронной форме на площадке РТС-тендер (http://www.rts-tender.ru) и Официальном сайте (http://zakupki.gov.ru)"
+    },
+    "status": "P",
+    "version": "1",
+    "notDishonest": "true",
+    "attachments": {
+     "totalDocumentsCount": "4",
+     "document": [
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-21T13:48:14",
+       "fileName": "Описание предмета закупки.docx",
+       "description": "Описание предмета закупки.docx",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      },
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-21T13:48:14",
+       "fileName": "НМЦД.docx",
+       "description": "НМЦД.docx",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      },
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-21T13:48:14",
+       "fileName": "Проект договора.docx",
+       "description": "Проект договора.docx",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      },
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-21T13:48:14",
+       "fileName": "Аукционная документация.docx",
+       "description": "Аукционная документация.docx",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      }
+     ]
+    },
+    "modificationDate": "2026-10-21T14:06:14",
+    "saveUserId": "3939072",
+    "deliveryPlaceIndication": "DIFFERENT_PLACE",
+    "emergency": "false",
+    "jointPurchase": "false",
+    "antimonopolyDecisionTaken": "false",
+    "applSubmisionPlace": "Электронная площадка РТС-тендер (http://www.rts-tender.ru)",
+    "applSubmisionStartDate": "2026-10-21",
+    "applSubmisionOrder": "В электронной форме",
+    "summingupOrder": "В соответствии с документацией о закупке",
+    "electronicPlaceInfo": {
+     "name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+     "url": "http://www.rts-tender.ru",
+     "electronicPlaceId": "6",
+     "specialized": "false"
+    },
+    "placingProcedure": {
+     "examinationPlace": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+     "examinationDateTime": "2026-11-02T00:00:00",
+     "summingupDateTime": "2026-11-05T00:00:00",
+     "summingupPlace": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1"
+    },
+    "submissionCloseDateTime": "2026-10-29T08:00:00",
+    "templateVersion": "2",
+    "templateStructure": {
+     "level": [
+      {
+       "tabLevel": "NOTICE",
+       "tab": [
+        {
+         "tabOrdinal": "1",
+         "tabName": "Общая информация",
+         "fixedName": "MAIN",
+         "section": [
+          {
+           "sectionOrdinal": "1",
+           "sectionName": "Сведения об извещении",
+           "fixedName": "MAIN_STATUS"
+          },
+          {
+           "sectionOrdinal": "2",
+           "sectionName": "Сведения о заказчике",
+           "fixedName": "MAIN_CUSTOMER"
+          },
+          {
+           "sectionOrdinal": "3",
+           "sectionName": "Сведения об обособленном подразделении",
+           "fixedName": "MAIN_DETACHED_DEPARTMENT"
+          },
+          {
+           "sectionOrdinal": "4",
+           "sectionName": "Сведения о закупке",
+           "fixedName": "MAIN_PURCHASE"
+          },
+          {
+           "sectionOrdinal": "5",
+           "sectionName": "Требования к участникам закупки",
+           "fixedName": "MAIN_PARTICIPANT_REQUIREMENTS"
+          },
+          {
+           "sectionOrdinal": "6",
+           "sectionName": "Контактная информация",
+           "fixedName": "MAIN_CONTACTS"
+          },
+          {
+           "sectionOrdinal": "7",
+           "sectionName": "Дополнительная информация",
+           "fixedName": "MAIN_ADDITIONAL_INFO"
+          }
+         ]
+        },
+        {
+         "tabOrdinal": "2",
+         "tabName": "Порядок проведения процедуры",
+         "fixedName": "COMMISSION",
+         "section": [
+          {
+           "sectionOrdinal": "1",
+           "sectionName": "Размещение извещения",
+           "fixedName": "COMMISSION_PUBLISH"
+          },
+          {
+           "sectionOrdinal": "2",
+           "sectionName": "Подача заявок",
+           "fixedName": "APPLICATIONS_SUBMISSION"
+          },
+          {
+           "sectionOrdinal": "8",
+           "sectionName": "Рассмотрение первых частей заявок",
+           "fixedName": "APPLICATIONS_EXAM_FIRST_PART"
+          },
+          {
+           "sectionOrdinal": "9",
+           "sectionName": "Подача ценовых предложений",
+           "fixedName": "PRICE_OFFER_SUBMISSION"
+          },
+          {
+           "sectionOrdinal": "10",
+           "sectionName": "Сопоставление ценовых предложений",
+           "fixedName": "PRICE_OFFER_COMPARISION"
+          },
+          {
+           "sectionOrdinal": "15",
+           "sectionName": "Рассмотрение вторых частей заявок",
+           "fixedName": "APPLICATIONS_EXAM_SECOND_PART"
+          },
+          {
+           "sectionOrdinal": "19",
+           "sectionName": "Подведение итогов",
+           "fixedName": "SUMMARIZING"
+          }
+         ]
+        },
+        {
+         "tabOrdinal": "3",
+         "tabName": "Список лотов",
+         "fixedName": "LOTS",
+         "section": {
+          "sectionOrdinal": "1",
+          "sectionName": "Сведения о лотах",
+          "fixedName": "LOTS_INFO"
+         }
+        },
+        {
+         "tabOrdinal": "6",
+         "tabName": "Документация",
+         "fixedName": "DOCS",
+         "section": [
+          {
+           "sectionOrdinal": "1",
+           "sectionName": "Предоставление документации",
+           "fixedName": "DOCS_INFO"
+          },
+          {
+           "sectionOrdinal": "2",
+           "sectionName": "Файлы документации",
+           "fixedName": "DOCS_FILES"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tabLevel": "LOT",
+       "tab": {
+        "tabOrdinal": "4",
+        "tabName": "Формирование лота",
+        "fixedName": "LOT_INFORMATION",
+        "section": [
+         {
+          "sectionOrdinal": "1",
+          "sectionName": "Общая информация о лоте",
+          "fixedName": "LOT_INFO"
+         },
+         {
+          "sectionOrdinal": "2",
+          "sectionName": "Информация о товаре, работе, услуге",
+          "fixedName": "LOT_GOODS"
+         },
+         {
+          "sectionOrdinal": "3",
+          "sectionName": "Место поставки",
+          "fixedName": "LOT_PLACE"
+         },
+         {
+          "sectionOrdinal": "4",
+          "sectionName": "Требования к обеспечению заявки",
+          "fixedName": "LOT_REQUIREMENTS"
+         },
+         {
+          "sectionOrdinal": "5",
+          "sectionName": "Требования к обеспечению исполнения договора",
+          "fixedName": "LOT_COMPLETING_REQUIREMENTS"
+         },
+         {
+          "sectionOrdinal": "6",
+          "sectionName": "Общая информация",
+          "fixedName": "LOT_COMMON_INFO"
+         }
+        ]
+       }
+      },
+      {
+       "tabLevel": "LOT_CUSTOMER",
+       "tab": {
+        "tabOrdinal": "5",
+        "tabName": "Формирование сведений по заказчику",
+        "fixedName": "LOT_CUSTOMER",
+        "section": [
+         {
+          "sectionOrdinal": "1",
+          "sectionName": "Сведения о позиции плана закупки",
+          "fixedName": "LOT_CUSTOMER_POSITION_INFO"
+         },
+         {
+          "sectionOrdinal": "2",
+          "sectionName": "Общая информация по заказчику (участнику совместной закупки)",
+          "fixedName": "LOT_CUSTOMER_INFO"
+         },
+         {
+          "sectionOrdinal": "3",
+          "sectionName": "Общая информация по заказчику (на которого не распространяется действие Федерального закона №223-ФЗ)",
+          "fixedName": "LOT_CUSTOMER_INFO_NOT_LAW_223"
+         },
+         {
+          "sectionOrdinal": "4",
+          "sectionName": "Место поставки товара, выполнения работы, оказания услуги",
+          "fixedName": "LOT_CUSTOMER_PLACE"
+         },
+         {
+          "sectionOrdinal": "5",
+          "sectionName": "Информация о товаре, работе, услуге",
+          "fixedName": "LOT_CUSTOMER_GOODS"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    "extendFields": {
+     "noticeExtendField": [
+      {
+       "extendField": [
+        {
+         "integrCode": "applExamPlace",
+         "description": "Место рассмотрения первых частей заявок",
+         "type": "TEXT",
+         "value": {
+          "text": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1"
+         }
+        },
+        {
+         "integrCode": "applExamPeriodTime",
+         "description": "Дата рассмотрения первых частей заявок",
+         "type": "DATE",
+         "value": {
+          "date": "2026-11-02"
+         }
+        },
+        {
+         "integrCode": "applExaminationOrder",
+         "description": "Порядок рассмотрения первых частей заявок",
+         "type": "TEXT",
+         "value": {
+          "text": "В соответствии с документацией о закупке"
+         }
+        }
+       ],
+       "position": {
+        "tabOrdinal": "2",
+        "tabName": "COMMISSION",
+        "sectionOrdinal": "8",
+        "sectionName": "COMISSION_SEC_Рассмотрение первых частей заявок"
+       }
+      },
+      {
+       "extendField": [
+        {
+         "integrCode": "pricesProvisionStartDate",
+         "description": "Дата начала срока подачи ценовых предложений",
+         "type": "DATE",
+         "value": {
+          "date": "2026-11-03"
+         }
+        },
+        {
+         "integrCode": "needEnterPricesProvisionDates",
+         "description": "Указать информацию о сроках подачи ценовых предложений",
+         "type": "BOOLEAN",
+         "value": {
+          "boolean": "true"
+         }
+        },
+        {
+         "integrCode": "pricesProvisionStartTime",
+         "description": "Время начала срока подачи ценовых предложений",
+         "type": "TIME",
+         "value": {
+          "time": "10:00:00"
+         }
+        },
+        {
+         "integrCode": "pricesProvisionEndDate",
+         "description": "Дата и время окончания срока подачи ценовых предложений",
+         "type": "DATETIME",
+         "value": {
+          "dateTime": "2026-11-03T10:10:00"
+         }
+        },
+        {
+         "integrCode": "pricesProvisionOrder",
+         "description": "Порядок подачи ценовых предложений",
+         "type": "TEXT",
+         "value": {
+          "text": "В электронной форме"
+         }
+        }
+       ],
+       "position": {
+        "tabOrdinal": "2",
+        "tabName": "COMMISSION",
+        "sectionOrdinal": "9",
+        "sectionName": "COMISSION_SEC_Подача ценовых предложений"
+       }
+      },
+      {
+       "extendField": {
+        "integrCode": "pricesMatchingOrder",
+        "description": "Порядок проведения сопоставления ценовых предложений",
+        "type": "TEXT",
+        "value": {
+         "text": "В электронной форме"
+        }
+       },
+       "position": {
+        "tabOrdinal": "2",
+        "tabName": "COMMISSION",
+        "sectionOrdinal": "10",
+        "sectionName": "COMISSION_SEC_Сопоставление ценовых предложений"
+       }
+      },
+      {
+       "extendField": [
+        {
+         "integrCode": "considerationSecondPartPlace",
+         "description": "Место рассмотрения вторых частей заявок",
+         "type": "TEXT",
+         "value": {
+          "text": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1"
+         }
+        },
+        {
+         "integrCode": "considerationSecondPartDate",
+         "description": "Дата рассмотрения вторых частей заявок",
+         "type": "DATE",
+         "value": {
+          "date": "2026-11-04"
+         }
+        },
+        {
+         "integrCode": "considerationSecondPartOrder",
+         "description": "Порядок рассмотрения вторых частей заявок",
+         "type": "TEXT",
+         "value": {
+          "text": "В соответствии с документацией о закупке"
+         }
+        }
+       ],
+       "position": {
+        "tabOrdinal": "2",
+        "tabName": "COMMISSION",
+        "sectionOrdinal": "15",
+        "sectionName": "COMISSION_SEC_Рассмотрение вторых частей заявок"
+       }
+      }
+     ]
+    },
+    "lots": {
+     "lot": {
+      "guid": "00000000-0000-0000-0000-000000000000",
+      "ordinalNumber": "1",
+      "lotEditEnabled": "true",
+      "lotData": {
+       "subject": "Поставка расходных материалов и запасных частей для автотранспорта",
+       "currency": {
+        "code": "RUB",
+        "digitalCode": "643",
+        "name": "Российский рубль"
+       },
+       "initialSum": "38112",
+       "deliveryPlace": {
+        "state": "Сибирский федеральный округ",
+        "region": "Новосибирская   обл",
+        "regionOkato": "47590555224",
+        "address": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1"
+       },
+       "lotItems": {
+        "newCodes": "true",
+        "superiorityNationalRegime": "true",
+        "lotItem": [
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "1",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "4",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "2",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "10",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "3",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "4",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "5",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "6",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "7",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "8",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "8",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "9",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "10",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "2",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "11",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "12",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "13",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "14",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "004",
+           "name": "Сантиметр"
+          },
+          "qty": "50",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "15",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "004",
+           "name": "Сантиметр"
+          },
+          "qty": "200",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "16",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "17",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "2",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "18",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "3",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "19",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "4",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "20",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "2",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "21",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32.1",
+           "name": "Производство сидений для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "22",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "23",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "2",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "24",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "25",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "26",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "27",
+          "okpd2": {
+           "code": "29.32.30.390",
+           "name": "Части и принадлежности для автотранспортных средств прочие, не включенные в другие группировки"
+          },
+          "okved2": {
+           "code": "29.32",
+           "name": "Производство прочих комплектующих и принадлежностей для автотранспортных средств"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "1",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         }
+        ]
+       },
+       "forSmallOrMiddle": "true",
+       "excludePurchaseFromPlan": "false",
+       "subcontractorsRequirement": "false",
+       "ignoredPurchase": "false",
+       "centralized": "false",
+       "purchaseDescription": "Прилагается к аукционной документации"
+      },
+      "deliveryPlaceIndication": "GL",
+      "jointLotData": {
+       "jointLot": "false"
+      },
+      "lotPlanInfo": {
+       "planRegistrationNumber": "0213110730",
+       "planGuid": "00000000-0000-0000-0000-000000000000",
+       "positionNumber": "57",
+       "lotPlanPosition": "COMMODITY",
+       "positionGuid": "00000000-0000-0000-0000-000000000000"
+      },
+      "cancelled": "false"
+     }
+    }
+   }
+  }
+ ]
+}

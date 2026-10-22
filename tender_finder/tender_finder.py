@@ -2002,7 +2002,7 @@ def run_offline_tests() -> int:
     city_cases = [
         ("Новосибирская область, г. Новосибирск, ул. Ленина 1", True),
         ("630099, Новосибирская обл, Новосибирск г, Красный пр-кт, 67", True),
-        ("Новосибирская область, г. Карасук", False),
+        ("Новосибирская область, г. Примерск", False),
         ("Новосибирский р-н, Верх-Тулинский сельсовет", False),
         ("Российская Федерация, 630007, Новосибирская область, г.о. город Новосибирск, г Новосибирск, ул Coвeтская, д. 18", True),
     ]
@@ -2066,23 +2066,23 @@ def run_offline_tests() -> int:
     _check(okpd_excluded("58.29.1", prefixes), "58.2", errors)
     _check(not okpd_excluded("58.11", prefixes), "58.11", errors)
 
-    card_a = json.loads((samples / "0151100007126000035.json").read_text(encoding="utf-8"))
-    card_b = json.loads((samples / "0151100004726000009.json").read_text(encoding="utf-8"))
-    card_c = json.loads((samples / "fz223_32616491361.json").read_text(encoding="utf-8"))
-    list_sample = json.loads((samples / "fz44_list_sample.json").read_text(encoding="utf-8"))
+    card_a = json.loads((samples / "example_44_ef.json").read_text(encoding="utf-8"))
+    card_b = json.loads((samples / "example_44_zk.json").read_text(encoding="utf-8"))
+    card_c = json.loads((samples / "example_223_auction.json").read_text(encoding="utf-8"))
+    list_sample = json.loads((samples / "example_44_list.json").read_text(encoding="utf-8"))
 
-    recs_a = parse_44({"purchase_number": "0151100007126000035", "max_price": 39636.81}, card_a)
+    recs_a = parse_44({"purchase_number": "0000000000000000001", "max_price": 39636.81}, card_a)
     _check(len(recs_a) == 1, "карточка салфеток: одна запись", errors)
     a = recs_a[0]
-    _check(a["номер"] == "0151100007126000035", a["номер"], errors)
-    _check("zakupki.gov.ru" in a["ссылка"] and "0151100007126000035" in a["ссылка"], a["ссылка"], errors)
+    _check(a["номер"] == "0000000000000000001", a["номер"], errors)
+    _check("zakupki.gov.ru" in a["ссылка"] and "0000000000000000001" in a["ссылка"], a["ссылка"], errors)
     _check("Салфетки" in a["предмет"] or "хозяйственных" in a["предмет"], a["предмет"], errors)
     _check(a["кол-во позиций"] == 1, str(a["кол-во позиций"]), errors)
     _check("Тряпка для очистки поверхностей — 657 Штука" in a["позиции"], a["позиции"], errors)
     _check(a["НМЦК"] == "39636.81", a["НМЦК"], errors)
     _check(a["цена за единицу"] == "60.33", a["цена за единицу"], errors)
-    _check("ЯДЕРНОЙ" in a["заказчик"], a["заказчик"], errors)
-    _check("Богдана Хмельницкого" in a["адрес поставки"], a["адрес поставки"], errors)
+    _check("ЗАКАЗЧИК-ПРИМЕР" in a["заказчик"], a["заказчик"], errors)
+    _check("Примерная" in a["адрес поставки"], a["адрес поставки"], errors)
     _check("с подъемом на 7 этаж" in a["адрес поставки"], "deliveryPlace", errors)
     _check(a["окончание подачи"] == "16.11.2026 08:00", a["окончание подачи"], errors)
     _check(a["способ"] == "Электронный аукцион", a["способ"], errors)
@@ -2096,7 +2096,7 @@ def run_offline_tests() -> int:
     _check(method_is_auction(a["способ"]), "аукцион по способу", errors)
     _check(is_novosibirsk_city(a["адрес поставки"]), "адрес салфеток — город", errors)
 
-    recs_b = parse_44({"purchase_number": "0151100004726000009"}, card_b)
+    recs_b = parse_44({"purchase_number": "0000000000000000002"}, card_b)
     b = recs_b[0]
     _check("Canon" in b["позиции"] and "— 1 Штука" in b["позиции"], b["позиции"], errors)
     _check(b["НМЦК"] == "61796.40", b["НМЦК"], errors)
@@ -2109,21 +2109,21 @@ def run_offline_tests() -> int:
     _check(b["опубликовано"] == "20.10.2026 16:32", b["опубликовано"], errors)
     _check(b["тип (purchase_type)"] == "epNotificationEZK2020", b["тип (purchase_type)"], errors)
     _check(not method_is_auction(b["способ"]), "котировки не аукцион", errors)
-    _check("Красный" in b["адрес поставки"], b["адрес поставки"], errors)
+    _check("Примерная" in b["адрес поставки"], b["адрес поставки"], errors)
     _check(is_novosibirsk_city(b["адрес поставки"]), "адрес МФУ — город", errors)
 
     recs_c = parse_223(card_c, card_c)
     _check(len(recs_c) == 1, f"223 лотов-записей {len(recs_c)}", errors)
     c = recs_c[0]
-    _check(c["номер"] == "32616491361", c["номер"], errors)
+    _check(c["номер"] == "00000000003", c["номер"], errors)
     _check(c["кол-во позиций"] == 27, str(c["кол-во позиций"]), errors)
     _check("Части и принадлежности" in c["позиции"], c["позиции"][:80], errors)
     _check("— 4 Штука" in c["позиции"], "qty 4", errors)
     _check(c["цена за единицу"] == "", "нет цены позиции и позиций много", errors)
     _check(c["НМЦК"] == "38112.00", c["НМЦК"], errors)
-    _check("КОММУНАЛЬНОЕ ХОЗЯЙСТВО" in c["заказчик"], c["заказчик"], errors)
-    _check("Карасук" in c["адрес поставки"], c["адрес поставки"], errors)
-    _check(not is_novosibirsk_city(c["адрес поставки"]), "Карасук не город Новосибирск", errors)
+    _check("ЗАКАЗЧИК-ПРИМЕР" in c["заказчик"], c["заказчик"], errors)
+    _check("Примерск" in c["адрес поставки"], c["адрес поставки"], errors)
+    _check(not is_novosibirsk_city(c["адрес поставки"]), "Примерск не город Новосибирск", errors)
     _check(c["окончание подачи"] == "29.10.2026 08:00", c["окончание подачи"], errors)
     _check("Аукцион" in c["способ"], c["способ"], errors)
     _check("РТС" in c["площадка"], c["площадка"], errors)
@@ -2390,10 +2390,10 @@ def run_offline_tests() -> int:
     by_name = norm_position_223({"okpd2": {"name": "Имя ОКПД2"}, "name": "Товар", "qty": 1})
     _check(by_name["name"] == "Товар", by_name["name"], errors)
 
-    med_path = HERE / "cache" / "44" / "0351300154026000251.json"
+    med_path = samples / "example_44_med.json"
     if med_path.is_file():
         med_card = json.loads(med_path.read_text(encoding="utf-8"))
-        med_recs = parse_44({"purchase_number": "0351300154026000251"}, med_card)
+        med_recs = parse_44({"purchase_number": "0000000000000000005"}, med_card)
         _check(len(med_recs) == 1 and med_recs[0].get("_medical") is True, "флаг медизделия", errors)
         cfg_m = default_config()
         reason_m = final_reject(med_recs[0], cfg_m, stop_re, compile_city(cfg_m), "no-auctions", set(), auctions, frozen)
@@ -2402,28 +2402,28 @@ def run_offline_tests() -> int:
         reason_off = final_reject(med_recs[0], cfg_m, stop_re, compile_city(cfg_m), "no-auctions", set(), auctions, frozen)
         _check(reason_off == "drop_stop_card", f"без флага остаётся стоп-слово: {reason_off}", errors)
     else:
-        errors.append(f"нет кэша медизделия: {med_path}")
+        errors.append(f"нет образца медизделия: {med_path}")
 
-    vague_path = HERE / "cache" / "223" / "32616485741.json"
+    vague_path = samples / "example_223_vague.json"
     if vague_path.is_file():
         vague_card = json.loads(vague_path.read_text(encoding="utf-8"))
-        vague = parse_223({"purchase_number": "32616485741"}, vague_card)[0]
-        _check(str(vague["адрес поставки"]).startswith("Весенняя, 16"), vague["адрес поставки"], errors)
+        vague = parse_223({"purchase_number": "00000000005"}, vague_card)[0]
+        _check(str(vague["адрес поставки"]).startswith("Примерная, 16"), vague["адрес поставки"], errors)
         _check("[адрес заказчика:" in vague["адрес поставки"], vague["адрес поставки"], errors)
         _check(is_novosibirsk_city(str(vague.get("_city_address") or "")), "city-only: почтовый адрес", errors)
-    contract_path = HERE / "cache" / "223" / "32616485898.json"
+    contract_path = samples / "example_223_contract.json"
     if contract_path.is_file():
         contract_card = json.loads(contract_path.read_text(encoding="utf-8"))
-        contract = parse_223({"purchase_number": "32616485898"}, contract_card)[0]
+        contract = parse_223({"purchase_number": "00000000006"}, contract_card)[0]
         _check(str(contract["адрес поставки"]).startswith("В соответствии с договором"), contract["адрес поставки"], errors)
         _check("[адрес заказчика:" in contract["адрес поставки"], contract["адрес поставки"], errors)
-        _check(not is_novosibirsk_city(str(contract.get("_city_address") or "")), "Маслянино не город", errors)
-    settled_path = HERE / "cache" / "223" / "32616490468.json"
+        _check(not is_novosibirsk_city(str(contract.get("_city_address") or "")), "посёлок в области не город", errors)
+    settled_path = samples / "example_223_settled.json"
     if settled_path.is_file():
         settled_card = json.loads(settled_path.read_text(encoding="utf-8"))
-        settled = parse_223({"purchase_number": "32616490468"}, settled_card)[0]
+        settled = parse_223({"purchase_number": "00000000007"}, settled_card)[0]
         _check("адрес заказчика" not in settled["адрес поставки"], settled["адрес поставки"], errors)
-        _check("Даргомыжского" in settled["адрес поставки"], settled["адрес поставки"], errors)
+        _check("Примерная" in settled["адрес поставки"], settled["адрес поставки"], errors)
 
     # слияние CSV
     import tempfile
@@ -2437,7 +2437,7 @@ def run_offline_tests() -> int:
         nums = [row[1] for row in rows[1:]]
         _check(n1 == 1 and n2 == 1, f"merge {n1} {n2}", errors)
         _check(raw.startswith(b"\xef\xbb\xbf"), "BOM", errors)
-        _check(nums.count("0151100004726000009") == 1 and len(nums) == 2, f"строки {nums}", errors)
+        _check(nums.count("0000000000000000002") == 1 and len(nums) == 2, f"строки {nums}", errors)
         _check("тип (purchase_type)" in rows[0], str(rows[0]), errors)
 
     # распределение подписей

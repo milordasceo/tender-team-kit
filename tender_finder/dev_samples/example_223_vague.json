@@ -1,0 +1,236 @@
+{
+ "_пример": "ОБЕЗЛИЧЕННЫЙ ВЫДУМАННЫЙ ПРИМЕР для офлайн-теста: номера, заказчики, ИНН, адреса и контакты заменены.",
+ "submission_close_at": "2026-10-27T09:00:00",
+ "currency_code": "RUB",
+ "customer": "3554312496",
+ "delivery_places": [],
+ "doc_created_at": "2026-10-19T19:50:20.940000",
+ "doc_updated_at": "2026-10-19T19:50:20.940000",
+ "max_price": 43560.0,
+ "object_info": "Полотенца бумажные, туалетная бумага",
+ "okpd2": [
+  "17.22.11.110",
+  "17.22.11.130"
+ ],
+ "placer": "3554312496",
+ "plan_numbers": [
+  "0000000021"
+ ],
+ "position_numbers": [
+  "79"
+ ],
+ "published_at": "2026-10-20T00:47:28",
+ "purchase_number": "00000000005",
+ "purchase_type": "purchaseNotice",
+ "region": 54,
+ "stage": 1,
+ "updated_at": "2026-10-20T00:47:28",
+ "docs": [
+  {
+   "doc_type": "purchaseNotice",
+   "published_at": "2026-10-20T00:47:28",
+   "source": {
+    "guid": "00000000-0000-0000-0000-000000000000",
+    "createDateTime": "2026-10-20T00:44:52",
+    "urlEIS": "https://lk.zakupki.gov.ru/223/purchase/private/purchase/notice-info/details.html?noticeInfoId=20379291",
+    "urlVSRZ": "localhost",
+    "registrationNumber": "00000000005",
+    "name": "Полотенца бумажные, туалетная бумага",
+    "customer": {
+     "mainInfo": {
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+      "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+      "iko": "21050801252942813551",
+      "inn": "3554312496",
+      "kpp": "291217150",
+      "ogrn": "4517321619098",
+      "legalAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+      "postalAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+      "email": "example@example.com",
+      "okato": "00000000014",
+      "okopf": "75203",
+      "okopfName": "Государственные бюджетные учреждения субъектов Российской Федерации",
+      "okpo": "29529271",
+      "okfs": "13",
+      "okfsName": "Собственность субъектов Российской Федерации",
+      "timeZone": {
+       "offset": "4",
+       "name": "МСК+4 (СГВ+7) Красноярск, Новосибирск"
+      },
+      "region": "НОВОСИБИРСКАЯ ОБЛАСТЬ",
+      "autonomousAgencyType": "SUBJECT"
+     }
+    },
+    "purchaseMethodCode": "365906",
+    "purchaseCodeName": "Запрос котировок в электронной форме",
+    "placer": {
+     "mainInfo": {
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+      "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+      "iko": "21050801252942813551",
+      "inn": "3554312496",
+      "kpp": "291217150",
+      "ogrn": "4517321619098",
+      "legalAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+      "postalAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+      "email": "example@example.com",
+      "okato": "00000000014",
+      "okopf": "75203",
+      "okopfName": "Государственные бюджетные учреждения субъектов Российской Федерации",
+      "okpo": "29529271",
+      "okfs": "13",
+      "okfsName": "Собственность субъектов Российской Федерации",
+      "timeZone": {
+       "offset": "4",
+       "name": "МСК+4 (СГВ+7) Красноярск, Новосибирск"
+      },
+      "region": "НОВОСИБИРСКАЯ ОБЛАСТЬ",
+      "autonomousAgencyType": "SUBJECT"
+     }
+    },
+    "contact": {
+     "firstName": "П.",
+     "middleName": "П.",
+     "lastName": "Примеров",
+     "phone": "70000000000",
+     "email": "example@example.com"
+    },
+    "publicationDateTime": "2026-10-20T00:47:28",
+    "documentationDelivery": {
+     "deliveryStartDateTime": "2026-10-19",
+     "deliveryEndDateTime": "2026-10-27",
+     "place": "В соответствии с условиями документации",
+     "procedure": "В соответствии с условиями документации"
+    },
+    "status": "P",
+    "version": "1",
+    "notDishonest": "true",
+    "attachments": {
+     "totalDocumentsCount": "2",
+     "document": [
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-19T20:44:54",
+       "fileName": "Документация полотенца, т бумага 10.26.doc",
+       "description": "Документация о закупке",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      },
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-19T20:44:52",
+       "fileName": "Проект договора полотенца, т бумага 10.26.docx",
+       "description": "Проект договора",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      }
+     ]
+    },
+    "modificationDate": "2026-10-20T00:47:10",
+    "saveUserId": "304470",
+    "deliveryPlaceIndication": "SINGLE_PLACE",
+    "emergency": "false",
+    "jointPurchase": "false",
+    "hidePurchase": "false",
+    "antimonopolyDecisionTaken": "false",
+    "applSubmisionStartDate": "2026-10-19",
+    "applSubmisionOrder": "В соответствии с условиями документации",
+    "summingupOrder": "В соответствии с условиями документации",
+    "electronicPlaceInfo": {
+     "name": "РТС-тендер",
+     "url": "www.rts-tender.ru",
+     "electronicPlaceId": "4522"
+    },
+    "placingProcedure": {
+     "summingupDateTime": "2026-10-29T18:00:00",
+     "summingupPlace": "В соответствии с условиями документации"
+    },
+    "submissionCloseDateTime": "2026-10-27T09:00:00",
+    "isLotOriented": "false",
+    "lots": {
+     "lot": {
+      "guid": "00000000-0000-0000-0000-000000000000",
+      "ordinalNumber": "1",
+      "lotEditEnabled": "true",
+      "lotData": {
+       "subject": "Полотенца бумажные, туалетная бумага",
+       "currency": {
+        "code": "RUB",
+        "digitalCode": "643",
+        "name": "Российский рубль"
+       },
+       "initialSum": "43560",
+       "deliveryPlace": {
+        "state": "Сибирский федеральный округ",
+        "region": "Новосибирская   обл",
+        "regionOkato": "47590555224",
+        "address": "Примерная, 16"
+       },
+       "lotItems": {
+        "newCodes": "true",
+        "superiorityNationalRegime": "false",
+        "lotItem": [
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "1",
+          "okpd2": {
+           "code": "17.22.11.130",
+           "name": "Салфетки и полотенца гигиенические или косметические из бумажной массы, бумаги, целлюлозной ваты и полотна из целлюлозных волокон"
+          },
+          "okved2": {
+           "code": "17.22",
+           "name": "Производство бумажных изделий хозяйственно-бытового и санитарно-гигиенического назначения"
+          },
+          "okei": {
+           "code": "778",
+           "name": "Упаковка"
+          },
+          "qty": "300",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "2",
+          "okpd2": {
+           "code": "17.22.11.110",
+           "name": "Бумага туалетная из бумажной массы, бумаги, целлюлозной ваты и целлюлозных волокон и полотна из целлюлозных волокон"
+          },
+          "okved2": {
+           "code": "17.22",
+           "name": "Производство бумажных изделий хозяйственно-бытового и санитарно-гигиенического назначения"
+          },
+          "okei": {
+           "code": "778",
+           "name": "Упаковка"
+          },
+          "qty": "720",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         }
+        ]
+       },
+       "forSmallOrMiddle": "false",
+       "excludePurchaseFromPlan": "false",
+       "subcontractorsRequirement": "false",
+       "ignoredPurchase": "false",
+       "centralized": "false"
+      },
+      "deliveryPlaceIndication": "GL",
+      "jointLotData": {
+       "jointLot": "false"
+      },
+      "lotPlanInfo": {
+       "planRegistrationNumber": "0000000021",
+       "planGuid": "00000000-0000-0000-0000-000000000000",
+       "positionNumber": "79",
+       "lotPlanPosition": "COMMODITY",
+       "positionGuid": "00000000-0000-0000-0000-000000000000"
+      },
+      "cancelled": "false"
+     }
+    }
+   }
+  }
+ ]
+}

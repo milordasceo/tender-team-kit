@@ -1,0 +1,382 @@
+{
+ "_пример": "ОБЕЗЛИЧЕННЫЙ ВЫДУМАННЫЙ ПРИМЕР для офлайн-теста: номера, заказчики, ИНН, адреса и контакты заменены.",
+ "doc_type": "epNotificationEZK2020",
+ "published_at": "2026-10-21T09:56:10.351000",
+ "source": {
+  "id": "19550311",
+  "externalId": "krista.02239085.016200307462",
+  "versionNumber": "1",
+  "commonInfo": {
+   "purchaseNumber": "0000000000000000005",
+   "docNumber": "№0000000000000000005",
+   "plannedPublishDate": "2026-10-21+07:00",
+   "publishDTInEIS": "2026-10-21T16:56:10.351+07:00",
+   "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0000000000000000005",
+   "placingWay": {
+    "code": "ZKP20",
+    "name": "Запрос котировок в электронной форме"
+   },
+   "ETP": {
+    "code": "ETP_RTS",
+    "name": "РТС-тендер",
+    "url": "http://www.rts-tender.ru"
+   },
+   "contractConclusionOnSt83Ch2": "true",
+   "purchaseObjectInfo": "Поставка питательных сред для бак лаборатории"
+  },
+  "purchaseResponsibleInfo": {
+   "responsibleOrgInfo": {
+    "regNum": "00317345555",
+    "consRegistryNum": "17479270",
+    "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+    "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+    "postAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+    "factAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+    "INN": "4601987590",
+    "KPP": "648528902"
+   },
+   "responsibleRole": "CU",
+   "responsibleInfo": {
+    "orgPostAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+    "orgFactAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+    "contactPersonInfo": {
+     "lastName": "Примеров",
+     "firstName": "Пётр",
+     "middleName": "Петрович"
+    },
+    "contactEMail": "example@example.com",
+    "contactPhone": "70000000000"
+   }
+  },
+  "printFormInfo": {
+   "url": "https://zakupki.gov.ru/epz/order/notice/printForm/view.html?regNumber=0000000000000000005"
+  },
+  "attachmentsInfo": {
+   "attachmentInfo": [
+    {
+     "publishedContentId": "00000000000000000000000000001E2D",
+     "fileName": "НМЦК_Двухфазная-питательная-среда-ИВД.docx.zip",
+     "fileSize": "99784",
+     "docDescription": "НМЦК_Двухфазная-питательная-среда-ИВД.docx.zip",
+     "docDate": "2026-10-21T12:41:50+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "MRJ",
+      "name": "Обоснование начальной (максимальной) цены контракта"
+     }
+    },
+    {
+     "publishedContentId": "0000000000000000000000000000E34C",
+     "fileName": "Проект контракта среды.docx.zip",
+     "fileSize": "205946",
+     "docDescription": "Проект контракта среды.docx.zip",
+     "docDate": "2026-10-21T12:41:50+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "CP",
+      "name": "Проект контракта"
+     }
+    },
+    {
+     "publishedContentId": "0000000000000000000000000000919D",
+     "fileName": "ооз среды.docx.zip",
+     "fileSize": "81295",
+     "docDescription": "ооз среды.docx.zip",
+     "docDate": "2026-10-21T12:41:50+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "POD",
+      "name": "Описание объекта закупки"
+     }
+    },
+    {
+     "publishedContentId": "0000000000000000000000000000FA36",
+     "fileName": "ТРЕБОВАНИЯ к заявке (ограничение+ру).docx.zip",
+     "fileSize": "145901",
+     "docDescription": "ТРЕБОВАНИЯ к заявке (ограничение+ру).docx.zip",
+     "docDate": "2026-10-21T12:41:50+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "CAR",
+      "name": "Требование к содержанию, составу заявки на участие в закупке"
+     }
+    }
+   ]
+  },
+  "serviceSigns": {
+   "isIncludeKOKS": "false",
+   "isControlP1Ch5St99": "true"
+  },
+  "notificationInfo": {
+   "procedureInfo": {
+    "collectingInfo": {
+     "startDT": "2026-10-21T16:56:10+07:00",
+     "endDT": "2026-10-28T08:00:00+07:00"
+    },
+    "summarizingDate": "2026-10-29+07:00"
+   },
+   "contractConditionsInfo": {
+    "maxPriceInfo": {
+     "maxPrice": "65794.00",
+     "currency": {
+      "code": "RUB",
+      "name": "РОССИЙСКИЙ РУБЛЬ"
+     }
+    }
+   },
+   "customerRequirementsInfo": {
+    "customerRequirementInfo": {
+     "customer": {
+      "regNum": "00317345555",
+      "consRegistryNum": "17479270",
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»"
+     },
+     "contractConditionsInfo": {
+      "maxPriceInfo": {
+       "maxPrice": "65794.00"
+      },
+      "IKZInfo": {
+       "purchaseCode": "521223472341544746750253449432542716",
+       "publishYear": "2026",
+       "OKPD2Info": {
+        "OKPD2": {
+         "OKPDCode": "20.59",
+         "OKPDName": "Продукты химические прочие, не включенные в другие группировки"
+        }
+       },
+       "KVRInfo": {
+        "KVR": {
+         "code": "244",
+         "name": "Прочая закупка товаров, работ и услуг"
+        }
+       },
+       "customerCode": "42015075399644032347",
+       "purchaseNumber": "0258",
+       "purchaseOrderNumber": "001"
+      },
+      "tenderPlan2020Info": {
+       "plan2020Number": "162160912096715083",
+       "position2020Number": "417032582846431639444630"
+      },
+      "contractExecutionPaymentPlan": {
+       "contractExecutionTermsInfo": {
+        "notRelativeTermsInfo": {
+         "isFromConclusionDate": "true",
+         "endDate": "2026-12-31+03:00"
+        }
+       },
+       "financingSourcesInfo": {
+        "nonbudgetFinancingsInfo": {
+         "selfFunds": "true"
+        },
+        "currentYear": "2026",
+        "financeInfo": {
+         "total": "65794.00",
+         "currentYear": "65794.00",
+         "firstYear": "0.00",
+         "secondYear": "0.00",
+         "subsecYears": "0.00"
+        }
+       },
+       "stagesInfo": {
+        "stageInfo": {
+         "sid": "04665682",
+         "externalSid": "291304108537",
+         "termsInfo": {
+          "notRelativeTermsInfo": {
+           "isFromConclusionDate": "true",
+           "endDate": "2026-12-31+03:00"
+          }
+         },
+         "nonbudgetFinancingInfo": {
+          "paymentYearInfo": {
+           "total": "65794.00",
+           "currentYear": "65794.00",
+           "firstYear": "0.00",
+           "secondYear": "0.00",
+           "subsecYears": "0.00"
+          },
+          "KVRsInfo": {
+           "currentYear": "2026",
+           "KVRInfo": {
+            "KVR": {
+             "code": "244",
+             "name": "Прочая закупка товаров, работ и услуг"
+            },
+            "KVRYearsInfo": {
+             "total": "65794.00",
+             "currentYear": "65794.00",
+             "firstYear": "0.00",
+             "secondYear": "0.00",
+             "subsecYears": "0.00"
+            }
+           },
+           "totalSum": "65794.00"
+          }
+         }
+        }
+       }
+      },
+      "deliveryPlacesInfo": {
+       "byGARInfo": {
+        "sid": "05382132",
+        "externalSid": "930584634852",
+        "countryInfo": {
+         "countryCode": "643",
+         "countryFullName": "Российская Федерация"
+        },
+        "GARInfo": {
+         "GARGuid": "00000000-0000-0000-0000-000000000000",
+         "GARAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1"
+        },
+        "deliveryPlace": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1"
+       }
+      },
+      "isOneSideRejectionSt95": "true",
+      "isExecutionStagesTerms": "false"
+     }
+    }
+   },
+   "purchaseObjectsInfo": {
+    "notDrugPurchaseObjectsInfo": {
+     "purchaseObject": [
+      {
+       "sid": "971585020",
+       "externalSid": "173322000179",
+       "KTRU": {
+        "code": "20.59.52.140-00000508",
+        "name": "Двухфазная питательная среда ИВД",
+        "versionId": "170265",
+        "versionNumber": "1",
+        "characteristics": {
+         "characteristicsUsingTextForm": {
+          "sid": "914275707",
+          "externalSid": "314331410323",
+          "name": "описание",
+          "type": "1",
+          "characteristicsFillingInstruction": {
+           "code": "2",
+           "name": "Участник закупки указывает в заявке конкретное значение характеристики"
+          },
+          "values": {
+           "value": {
+            "sid": "020555432",
+            "externalSid": "314331410323",
+            "qualityDescription": "Сочетание двух различных питальных сред (например, агара и бульона), содержащихся в одном контейнере и предназначенных для одновременного выращивания, селективного выделения и/или дифференциации микроорганизмов из клинического образца.\nДополнительные характеристики:\nКомбинированная среда должна применятся для обогащения и быстрого роста колоний в образцах крови взрослых пациентов. \nДолжна быть пригодна для выращивания аэробов и факультативных анаэробов (энтеробактерий, псевдомонад, стафилококков, грибов). Стеклянный флакон содержит не менее 20 мл агара, омываемого не менее 40 мл бульона.В наборе 10 флаконов"
+           }
+          }
+         },
+         "addCharacteristicInfoReason": "Так как в позиции КТРУ отсутствуют характеристики, заказчик самостоятельно устанавливает в извещении все характеристики закупаемого товара, работы, услуги в соответствии с нормами статьи 33 Закона № 44-ФЗ (письмо Минфина России от 24 января 2022 г. N 24-03-08/4090)."
+        },
+        "OKPD2": {
+         "OKPDCode": "20.59.52.140",
+         "OKPDName": "Среды готовые питательные для выращивания микроорганизмов"
+        }
+       },
+       "name": "Двухфазная питательная среда ИВД",
+       "OKEI": {
+        "code": "796",
+        "nationalCode": "шт",
+        "name": "Штука"
+       },
+       "price": "16879.00",
+       "volumeSpecifyingMethod": "QF",
+       "quantity": {
+        "value": "3.00000000000"
+       },
+       "sum": "50637.00",
+       "isMedicalProduct": "true",
+       "type": "PRODUCT",
+       "hierarchyType": "ND",
+       "restrictionsInfo": {
+        "isRestrictForeignPurchaseObjects": "true"
+       }
+      },
+      {
+       "sid": "660413422",
+       "externalSid": "310483414030",
+       "KTRU": {
+        "code": "20.59.52.140-00000508",
+        "name": "Двухфазная питательная среда ИВД",
+        "versionId": "170265",
+        "versionNumber": "1",
+        "characteristics": {
+         "characteristicsUsingTextForm": {
+          "sid": "281444687",
+          "externalSid": "080421453946",
+          "name": "описание",
+          "type": "1",
+          "characteristicsFillingInstruction": {
+           "code": "2",
+           "name": "Участник закупки указывает в заявке конкретное значение характеристики"
+          },
+          "values": {
+           "value": {
+            "sid": "126771414",
+            "externalSid": "080421453946",
+            "qualityDescription": "Сочетание двух различных питальных сред (например, агара и бульона), содержащихся в одном контейнере и предназначенных для одновременного выращивания, селективного выделения и/или дифференциации микроорганизмов из клинического образца.\nДополнительные характеристики:\nКомбинированная среда должна применятся для обогащения и быстрого роста колоний в образцах крови взрослых пациентов. \nДолжна быть пригодна для выращивания аэробов и факультативных анаэробов (энтеробактерий, псевдомонад, стафилококков, грибов). Стеклянный флакон содержит жидкая фаза  не менее 20 мл бульона.твердая 7 мл В наборе 10 флаконов"
+           }
+          }
+         },
+         "addCharacteristicInfoReason": "Так как в позиции КТРУ отсутствуют характеристики, заказчик самостоятельно устанавливает в извещении все характеристики закупаемого товара, работы, услуги в соответствии с нормами статьи 33 Закона № 44-ФЗ (письмо Минфина России от 24 января 2022 г. N 24-03-08/4090)."
+        },
+        "OKPD2": {
+         "OKPDCode": "20.59.52.140",
+         "OKPDName": "Среды готовые питательные для выращивания микроорганизмов"
+        }
+       },
+       "name": "Двухфазная питательная среда ИВД",
+       "OKEI": {
+        "code": "796",
+        "nationalCode": "шт",
+        "name": "Штука"
+       },
+       "price": "15157.00",
+       "volumeSpecifyingMethod": "QF",
+       "quantity": {
+        "value": "1.00000000000"
+       },
+       "sum": "15157.00",
+       "isMedicalProduct": "true",
+       "type": "PRODUCT",
+       "hierarchyType": "ND",
+       "restrictionsInfo": {
+        "isRestrictForeignPurchaseObjects": "true"
+       }
+      }
+     ],
+     "totalSum": "65794.00",
+     "quantityUndefined": "false"
+    }
+   },
+   "preferensesInfo": {
+    "preferenseInfo": {
+     "preferenseRequirementInfo": {
+      "shortName": "PVS33044",
+      "name": "Преимущество в соответствии с ч. 3 ст. 30 Закона № 44-ФЗ"
+     }
+    }
+   },
+   "requirementsInfo": {
+    "requirementInfo": [
+     {
+      "preferenseRequirementInfo": {
+       "shortName": "ET44",
+       "name": "Единые требования к участникам закупок в соответствии с ч. 1 ст. 31 Закона № 44-ФЗ"
+      }
+     },
+     {
+      "preferenseRequirementInfo": {
+       "shortName": "TR442",
+       "name": "Требования к участникам закупок в соответствии с ч. 1.1 ст. 31 Закона № 44-ФЗ"
+      }
+     }
+    ]
+   }
+  },
+  "printFormFieldsInfo": {
+   "is449Features": "false"
+  },
+  "@schemeVersion": "16.3"
+ }
+}

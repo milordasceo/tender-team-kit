@@ -1,0 +1,229 @@
+{
+ "_пример": "ОБЕЗЛИЧЕННЫЙ ВЫДУМАННЫЙ ПРИМЕР для офлайн-теста: номера, заказчики, ИНН, адреса и контакты заменены.",
+ "submission_close_at": "2026-10-28T10:00:00",
+ "currency_code": "RUB",
+ "customer": "0050410163",
+ "delivery_places": [],
+ "doc_created_at": "2026-10-20T03:50:19.688000",
+ "doc_updated_at": "2026-10-20T03:50:19.688000",
+ "max_price": 13782.5,
+ "object_info": "Поставка хозяйственных товаров",
+ "okpd2": [
+  "25.99.29.129"
+ ],
+ "placer": "0050410163",
+ "plan_numbers": [
+  "8814327462"
+ ],
+ "position_numbers": [
+  "121"
+ ],
+ "published_at": "2026-10-20T08:52:58",
+ "purchase_number": "00000000006",
+ "purchase_type": "purchaseNotice",
+ "region": 54,
+ "stage": 1,
+ "updated_at": "2026-10-20T08:52:58",
+ "docs": [
+  {
+   "doc_type": "purchaseNotice",
+   "published_at": "2026-10-20T08:52:58",
+   "source": {
+    "guid": "00000000-0000-0000-0000-000000000000",
+    "createDateTime": "2026-10-20T08:52:31",
+    "urlEIS": "https://lk.zakupki.gov.ru/223/purchase/private/purchase/notice-info/details.html?noticeInfoId=20379511",
+    "urlVSRZ": "localhost",
+    "registrationNumber": "00000000006",
+    "name": "Поставка хозяйственных товаров",
+    "customer": {
+     "mainInfo": {
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+      "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+      "iko": "03234340993983522231",
+      "inn": "0050410163",
+      "kpp": "485922312",
+      "ogrn": "8915834584225",
+      "legalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "postalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "email": "example@example.com",
+      "okato": "00000000012",
+      "okopf": "75201",
+      "okopfName": "Государственные автономные учреждения субъектов Российской Федерации",
+      "okpo": "39212473",
+      "okfs": "13",
+      "okfsName": "Собственность субъектов Российской Федерации",
+      "timeZone": {
+       "offset": "4",
+       "name": "МСК+4 (СГВ+7) Красноярск, Новосибирск"
+      },
+      "region": "НОВОСИБИРСКАЯ ОБЛАСТЬ",
+      "autonomousAgencyType": "SUBJECT"
+     }
+    },
+    "purchaseMethodCode": "365906",
+    "purchaseCodeName": "Запрос котировок в электронной форме",
+    "placer": {
+     "mainInfo": {
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+      "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+      "iko": "03234340993983522231",
+      "inn": "0050410163",
+      "kpp": "485922312",
+      "ogrn": "8915834584225",
+      "legalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "postalAddress": "ПРИМЕР: 632000, Новосибирская область, Примерный р-н, г. Примерск, ул. Тестовая, д. 1",
+      "email": "example@example.com",
+      "okato": "00000000012",
+      "okopf": "75201",
+      "okopfName": "Государственные автономные учреждения субъектов Российской Федерации",
+      "okpo": "39212473",
+      "okfs": "13",
+      "okfsName": "Собственность субъектов Российской Федерации",
+      "timeZone": {
+       "offset": "4",
+       "name": "МСК+4 (СГВ+7) Красноярск, Новосибирск"
+      },
+      "region": "НОВОСИБИРСКАЯ ОБЛАСТЬ",
+      "autonomousAgencyType": "SUBJECT"
+     }
+    },
+    "contact": {
+     "firstName": "П.",
+     "middleName": "П.",
+     "lastName": "Примеров",
+     "phone": "70000000000",
+     "email": "example@example.com"
+    },
+    "publicationDateTime": "2026-10-20T08:52:58",
+    "status": "P",
+    "version": "1",
+    "notDishonest": "true",
+    "attachments": {
+     "totalDocumentsCount": "2",
+     "document": [
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-20T04:52:34",
+       "fileName": "проект договора.docx",
+       "description": "Проект договора",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      },
+      {
+       "guid": "00000000-0000-0000-0000-000000000000",
+       "createDateTime": "2026-10-20T04:52:31",
+       "fileName": "Извещение о проведении ЗК.doc",
+       "description": "Документация о закупке",
+       "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=ПРИМЕР"
+      }
+     ]
+    },
+    "modificationDate": "2026-10-20T08:52:50",
+    "saveUserId": "5516",
+    "deliveryPlaceIndication": "SINGLE_PLACE",
+    "emergency": "false",
+    "jointPurchase": "false",
+    "hidePurchase": "false",
+    "antimonopolyDecisionTaken": "false",
+    "applSubmisionStartDate": "2026-10-20",
+    "applSubmisionOrder": "Указано в документации",
+    "summingupOrder": "Указано в документации",
+    "electronicPlaceInfo": {
+     "name": "РТС-тендер",
+     "url": "www.rts-tender.ru",
+     "electronicPlaceId": "4522"
+    },
+    "placingProcedure": {
+     "summingupDateTime": "2026-10-28T12:00:00",
+     "summingupPlace": "Указано в документации"
+    },
+    "submissionCloseDateTime": "2026-10-28T10:00:00",
+    "isLotOriented": "false",
+    "lots": {
+     "lot": {
+      "guid": "00000000-0000-0000-0000-000000000000",
+      "ordinalNumber": "1",
+      "lotEditEnabled": "true",
+      "lotData": {
+       "subject": "Поставка хозяйственных товаров",
+       "currency": {
+        "code": "RUB",
+        "digitalCode": "643",
+        "name": "Российский рубль"
+       },
+       "initialSum": "13782.5",
+       "deliveryPlace": {
+        "state": "Сибирский федеральный округ",
+        "region": "Новосибирская   обл",
+        "regionOkato": "47590555224",
+        "address": "В соответствии с договором"
+       },
+       "lotItems": {
+        "newCodes": "true",
+        "superiorityNationalRegime": "false",
+        "lotItem": [
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "1",
+          "okpd2": {
+           "code": "25.99.29.129",
+           "name": "Лопаты прочие"
+          },
+          "okved2": {
+           "code": "25.99.2",
+           "name": "Производство прочих металлических изделий"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "3",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         },
+         {
+          "guid": "00000000-0000-0000-0000-000000000000",
+          "ordinalNumber": "2",
+          "okpd2": {
+           "code": "25.99.29.129",
+           "name": "Лопаты прочие"
+          },
+          "okved2": {
+           "code": "25.99.2",
+           "name": "Производство прочих металлических изделий"
+          },
+          "okei": {
+           "code": "796",
+           "name": "Штука"
+          },
+          "qty": "2",
+          "prohibitionNationalRegime": "false",
+          "constraintNationalRegime": "false",
+          "exceptionNationalRegime": "false"
+         }
+        ]
+       },
+       "forSmallOrMiddle": "false",
+       "excludePurchaseFromPlan": "false",
+       "subcontractorsRequirement": "false",
+       "ignoredPurchase": "false",
+       "centralized": "false"
+      },
+      "deliveryPlaceIndication": "GL",
+      "jointLotData": {
+       "jointLot": "false"
+      },
+      "lotPlanInfo": {
+       "planRegistrationNumber": "8814327462",
+       "planGuid": "00000000-0000-0000-0000-000000000000",
+       "positionNumber": "121",
+       "lotPlanPosition": "COMMODITY",
+       "positionGuid": "00000000-0000-0000-0000-000000000000"
+      },
+      "cancelled": "false"
+     }
+    }
+   }
+  }
+ ]
+}

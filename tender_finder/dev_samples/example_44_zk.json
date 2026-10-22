@@ -1,0 +1,361 @@
+{
+ "_пример": "ОБЕЗЛИЧЕННЫЙ ВЫДУМАННЫЙ ПРИМЕР для офлайн-теста: номера, заказчики, ИНН, адреса и контакты заменены.",
+ "doc_type": "epNotificationEZK2020",
+ "published_at": "2026-10-20T09:32:18.334000",
+ "source": {
+  "id": "02340120",
+  "versionNumber": "1",
+  "commonInfo": {
+   "purchaseNumber": "0000000000000000002",
+   "docNumber": "№0000000000000000002",
+   "directDT": "2026-10-20T16:24:25.313+07:00",
+   "plannedPublishDate": "2026-10-20+07:00",
+   "publishDTInEIS": "2026-10-20T16:32:18.334+07:00",
+   "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0000000000000000002",
+   "placingWay": {
+    "code": "ZKP20",
+    "name": "Запрос котировок в электронной форме"
+   },
+   "ETP": {
+    "code": "ETP_RTS",
+    "name": "РТС-тендер",
+    "url": "http://www.rts-tender.ru"
+   },
+   "contractConclusionOnSt83Ch2": "true",
+   "purchaseObjectInfo": "Поставка узла переноса изображения для МФУ (в сфере ИКТ)"
+  },
+  "purchaseResponsibleInfo": {
+   "responsibleOrgInfo": {
+    "regNum": "03912057031",
+    "consRegistryNum": "14192504",
+    "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+    "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+    "postAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+    "factAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+    "INN": "4824023415",
+    "KPP": "372487108"
+   },
+   "responsibleRole": "CU",
+   "responsibleInfo": {
+    "orgPostAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+    "orgFactAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+    "contactPersonInfo": {
+     "lastName": "Примеров",
+     "firstName": "Пётр",
+     "middleName": "Петрович"
+    },
+    "contactEMail": "example@example.com",
+    "contactPhone": "70000000000"
+   }
+  },
+  "printFormInfo": {
+   "url": "https://zakupki.gov.ru/epz/order/notice/printForm/view.html?regNumber=0000000000000000002"
+  },
+  "attachmentsInfo": {
+   "attachmentInfo": [
+    {
+     "publishedContentId": "00000000000000000000000000009205",
+     "fileName": "Приложение №1 НМЦК_Узел переноса изобр.в сборе 2026.xlsx",
+     "fileSize": "19483",
+     "docDescription": "Приложение №1 НМЦК_Узел переноса изобр.в сборе 2026",
+     "docDate": "2026-10-20T10:33:48+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "MRJ",
+      "name": "Обоснование начальной (максимальной) цены контракта"
+     }
+    },
+    {
+     "publishedContentId": "00000000000000000000000000000E2B",
+     "fileName": "Приложение №2 Проект контракта на поставку кондиционера 2026.docx",
+     "fileSize": "164017",
+     "docDescription": "Приложение №2 Проект контракта на поставку кондиционера 2026",
+     "docDate": "2026-10-20T10:33:53+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР+7-000-000-00-00",
+     "docKindInfo": {
+      "code": "CP",
+      "name": "Проект контракта"
+     }
+    },
+    {
+     "publishedContentId": "00000000000000000000000000002C5E",
+     "fileName": "Приложение №3 ООЗ на поставку узла переноса изображения для МФУ.docx",
+     "fileSize": "49416",
+     "docDescription": "Приложение №3 ООЗ на поставку узла переноса изображения для МФУ",
+     "docDate": "2026-10-20T12:12:03+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "POD",
+      "name": "Описание объекта закупки"
+     }
+    },
+    {
+     "publishedContentId": "0000000000000000000000000000F59C",
+     "fileName": "Приложение № 4 Требования к содержанию заявки.docx",
+     "fileSize": "28555",
+     "docDescription": "Приложение № 4 Требования к содержанию заявки",
+     "docDate": "2026-10-20T10:34:05+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "CAR",
+      "name": "Требование к содержанию, составу заявки на участие в закупке"
+     }
+    },
+    {
+     "publishedContentId": "0000000000000000000000000000B7E5",
+     "fileName": "Уведомление об отсутствии в ГИСП.pdf",
+     "fileSize": "65693",
+     "docDescription": "Уведомление об отсутствии в ГИСП",
+     "docDate": "2026-10-20T11:12:44+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "AD",
+      "name": "Дополнительная информация и документы"
+     }
+    }
+   ]
+  },
+  "serviceSigns": {
+   "isIncludeKOKS": "false",
+   "isControlP1Ch5St99": "true"
+  },
+  "notificationInfo": {
+   "procedureInfo": {
+    "collectingInfo": {
+     "startDT": "2026-10-20T16:32:18+07:00",
+     "endDT": "2026-10-27T10:00:00+07:00"
+    },
+    "summarizingDate": "2026-10-28+07:00"
+   },
+   "contractConditionsInfo": {
+    "maxPriceInfo": {
+     "maxPrice": "61796.40",
+     "currency": {
+      "code": "RUB",
+      "name": "РОССИЙСКИЙ РУБЛЬ"
+     }
+    }
+   },
+   "customerRequirementsInfo": {
+    "customerRequirementInfo": {
+     "customer": {
+      "regNum": "03912057031",
+      "consRegistryNum": "14192504",
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»"
+     },
+     "contractGuarantee": {
+      "account": {
+       "bik": "055835055",
+       "settlementAccount": "87215115175819175410",
+       "personalAccount": "См. прилагаемые документы"
+      },
+      "procedureInfo": "Исполнение контракта может обеспечиваться предоставлением независимой гарантии, соответствующей требованиям ст. 45 ФЗ № 44, или внесением денежных средств на указанный в настоящем Извещении счет, на котором в соответствии с законодательством РФ учитываются операции со средствами, поступающими заказчику. Способ обеспечения исполнения контракта, срок действия независимой гарантии определяются в соответствии с требованиями ФЗ № 44 участником закупки, с которым заключается государственный контракт, самостоятельно. Срок действия независимой гарантии должен превышать срок действия государственного контракта не менее чем на один месяц. В независимую гарантию должно быть включено условие об обязанности гаранта уплатить заказчику (бенефициару) денежную сумму по независимой гарантии не позднее десяти рабочих дней со дня, следующего за днем получения гарантом требования заказчика (бенефициара), соответствующего условиям такой независимой гарантии, при отсутствии предусмотренных ГК РФ оснований для отказа в удовлетворении этого требования. Контракт заключается после предоставления участником закупки, с которым заключается контракт, обеспечения исполнения контракта в соответствии с ФЗ № 44. В случае непредоставления участником закупки, с которым заключается контракт, обеспечения исполнения контракта в срок, установленный для заключения контракта, такой участник считается уклонившимся от заключения контракта. В случае, если предложенная победителем открытого аукциона в электронной форме цена контракта снижена на двадцать пять и более процентов по отношению к начальной (максимальной) цене контракта, он предоставляет обеспечение исполнения контракта с учетом положений ст. 37 ФЗ № 44. В случае, если участником закупки, с которым заключается контракт, является казенное учреждение, положения ФЗ № 44 об обеспечении исполнения контракта к такому участнику не применяются.",
+      "part": "10.0"
+     },
+     "contractConditionsInfo": {
+      "maxPriceInfo": {
+       "maxPrice": "61796.40"
+      },
+      "IKZInfo": {
+       "purchaseCode": "393372052004854642682979058345092670",
+       "publishYear": "2026",
+       "OKPD2Info": {
+        "OKPD2": {
+         "OKPDCode": "26.20",
+         "OKPDName": "Компьютеры и периферийное оборудование"
+        }
+       },
+       "KVRInfo": {
+        "KVR": {
+         "code": "242",
+         "name": "Закупка товаров, работ и услуг в сфере информационно-коммуникационных технологий"
+        }
+       },
+       "customerCode": "74151332480136305022",
+       "purchaseNumber": "0030",
+       "purchaseOrderNumber": "001"
+      },
+      "tenderPlan2020Info": {
+       "plan2020Number": "016342130521155411",
+       "position2020Number": "171500401701023998550280"
+      },
+      "contractExecutionPaymentPlan": {
+       "contractExecutionTermsInfo": {
+        "notRelativeTermsInfo": {
+         "isFromConclusionDate": "true",
+         "endDate": "2026-12-16+03:00"
+        }
+       },
+       "financingSourcesInfo": {
+        "budgetFinancingsInfo": {
+         "budgetInfo": {
+          "code": "99010001",
+          "name": "Федеральный бюджет"
+         },
+         "budgetLevelInfo": {
+          "code": "10",
+          "name": "федеральный бюджет"
+         },
+         "OKTMOInfo": {
+          "code": "00000001",
+          "name": "Раздел 1. Муниципальные образования субъектов Российской Федерации / Федеральный бюджет"
+         }
+        },
+        "currentYear": "2026",
+        "financeInfo": {
+         "total": "61796.40",
+         "currentYear": "61796.40",
+         "firstYear": "0.00",
+         "secondYear": "0.00",
+         "subsecYears": "0.00"
+        }
+       },
+       "stagesInfo": {
+        "stageInfo": {
+         "sid": "97244391",
+         "termsInfo": {
+          "notRelativeTermsInfo": {
+           "isFromConclusionDate": "true",
+           "endDate": "2026-12-16+03:00"
+          }
+         },
+         "budgetFinancingsInfo": {
+          "budgetFinancingInfo": {
+           "KBK": "03621267371454938209",
+           "paymentYearInfo": {
+            "total": "61796.40",
+            "currentYear": "61796.40",
+            "firstYear": "0.00",
+            "secondYear": "0.00",
+            "subsecYears": "0.00"
+           }
+          }
+         }
+        }
+       }
+      },
+      "BOInfo": {
+       "BONumber": "3206463395324343211",
+       "BODate": "2026-10-20T00:00:00+03:00",
+       "inputBOFlag": "auto"
+      },
+      "deliveryPlacesInfo": {
+       "byGARInfo": {
+        "sid": "17639006",
+        "countryInfo": {
+         "countryCode": "643",
+         "countryFullName": "Российская Федерация"
+        },
+        "GARInfo": {
+         "GARGuid": "00000000-0000-0000-0000-000000000000",
+         "GARAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1"
+        }
+       }
+      },
+      "isOneSideRejectionSt95": "true",
+      "isExecutionStagesTerms": "false"
+     },
+     "warrantyInfo": {
+      "warrantyServiceRequirement": "Поставщик на период гарантийного срока обязуется: \n•\tобеспечить замену Товара в случае возникновении обоснованных претензий по качеству и ресурсу расходных материалов в течение 3 (трех) рабочих дней с момента получения письменного (либо по телефону, факсу, электронной почте) обращения Заказчика и его доставку до места поставки (использования) за свой счет; \n•\tобеспечить наличие «горячей линии» технической поддержки; \n•\tпри возникновении неисправностей или засорения оборудования, возникших по причине использования переданных Поставщиком Товаров, замена Товара, ремонт или чистка оборудования осуществляется Поставщиком за свой счет в срок не более 3 (трех) рабочих дней с момента получения Поставщиком письменного (либо по телефону, факсу, электронной почте) уведомления представителя Заказчика.",
+      "manufacturersWarrantyRequirement": "Гарантия завода-производителя на поставляемый Товар должна составлять не менее 12 месяцев с даты подписания документа о приемке.",
+      "warrantyTerm": "Гарантийный срок не менее 12 месяцев с даты подписания документа о приемке."
+     }
+    }
+   },
+   "purchaseObjectsInfo": {
+    "notDrugPurchaseObjectsInfo": {
+     "purchaseObject": {
+      "sid": "415096066",
+      "OKPD2": {
+       "OKPDCode": "26.20.40.160",
+       "OKPDName": "Узлы принтеров и многофункциональных печатающих устройств",
+       "characteristics": {
+        "characteristicsUsingTextForm": [
+         {
+          "sid": "502273365",
+          "name": "Для МФУ Canon iR Advance C3520",
+          "type": "1",
+          "characteristicsFillingInstruction": {
+           "code": "2",
+           "name": "Участник закупки указывает в заявке конкретное значение характеристики"
+          },
+          "values": {
+           "value": {
+            "sid": "082000058",
+            "qualityDescription": "Соответствует"
+           }
+          }
+         },
+         {
+          "sid": "147507843",
+          "name": "Ресурс узла в соответствии с ISO/IEC 19798, страниц",
+          "type": "1",
+          "characteristicsFillingInstruction": {
+           "code": "2",
+           "name": "Участник закупки указывает в заявке конкретное значение характеристики"
+          },
+          "values": {
+           "value": {
+            "sid": "001032234",
+            "qualityDescription": "Не менее 180000"
+           }
+          }
+         }
+        ]
+       }
+      },
+      "name": "Узел переноса изображения в сборе Canon FM1-A605 (или эквивалент)",
+      "OKEI": {
+       "code": "796",
+       "nationalCode": "шт",
+       "name": "Штука"
+      },
+      "price": "61796.40",
+      "quantity": {
+       "value": "1.00000000000"
+      },
+      "sum": "61796.40",
+      "type": "PRODUCT",
+      "hierarchyType": "ND",
+      "restrictionsInfo": {
+       "isProhibitionForeignPurchaseObjects": "false",
+       "isRestrictForeignPurchaseObjects": "true",
+       "isPreferenseRFPurchaseObjects": "false",
+       "isImposibilityProhibition": "false"
+      }
+     },
+     "totalSum": "61796.40",
+     "quantityUndefined": "false"
+    }
+   },
+   "preferensesInfo": {
+    "preferenseInfo": {
+     "preferenseRequirementInfo": {
+      "shortName": "PVS33044",
+      "name": "Преимущество в соответствии с ч. 3 ст. 30 Закона № 44-ФЗ"
+     }
+    }
+   },
+   "requirementsInfo": {
+    "requirementInfo": [
+     {
+      "preferenseRequirementInfo": {
+       "shortName": "ET44",
+       "name": "Единые требования к участникам закупок в соответствии с ч. 1 ст. 31 Закона № 44-ФЗ"
+      }
+     },
+     {
+      "preferenseRequirementInfo": {
+       "shortName": "TR442",
+       "name": "Требования к участникам закупок в соответствии с ч. 1.1 ст. 31 Закона № 44-ФЗ"
+      }
+     }
+    ]
+   }
+  },
+  "printFormFieldsInfo": {
+   "is449Features": "false"
+  },
+  "@schemeVersion": "16.3"
+ }
+}

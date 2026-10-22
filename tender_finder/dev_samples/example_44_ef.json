@@ -1,0 +1,424 @@
+{
+ "_пример": "ОБЕЗЛИЧЕННЫЙ ВЫДУМАННЫЙ ПРИМЕР для офлайн-теста: номера, заказчики, ИНН, адреса и контакты заменены.",
+ "doc_type": "epNotificationEF2020",
+ "published_at": "2026-10-19T02:41:43.331000",
+ "source": {
+  "id": "92211401",
+  "versionNumber": "1",
+  "commonInfo": {
+   "purchaseNumber": "0000000000000000001",
+   "docNumber": "№0000000000000000001",
+   "directDT": "2026-10-16T08:16:40.224+07:00",
+   "plannedPublishDate": "2026-10-19+07:00",
+   "publishDTInEIS": "2026-10-19T09:41:43.331+07:00",
+   "href": "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0000000000000000001",
+   "placingWay": {
+    "code": "EAP20",
+    "name": "Электронный аукцион"
+   },
+   "ETP": {
+    "code": "ETP_SBAST",
+    "name": "АО «Сбербанк-АСТ»",
+    "url": "http://www.sberbank-ast.ru"
+   },
+   "contractConclusionOnSt83Ch2": "true",
+   "purchaseObjectInfo": "Приобретение хозяйственных товаров (Салфетки микрофибра на 2027 год)"
+  },
+  "purchaseResponsibleInfo": {
+   "responsibleOrgInfo": {
+    "regNum": "19591402099",
+    "consRegistryNum": "30722892",
+    "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»",
+    "shortName": "ПРИМЕР: ГУ «ЗАКАЗЧИК-ПРИМЕР»",
+    "postAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+    "factAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+    "INN": "9283680724",
+    "KPP": "812502375"
+   },
+   "responsibleRole": "CU",
+   "responsibleInfo": {
+    "orgPostAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+    "orgFactAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1",
+    "contactPersonInfo": {
+     "lastName": "Примеров",
+     "firstName": "Пётр",
+     "middleName": "Петрович"
+    },
+    "contactEMail": "example@example.com",
+    "contactPhone": "70000000000"
+   }
+  },
+  "printFormInfo": {
+   "url": "https://zakupki.gov.ru/epz/order/notice/printForm/view.html?regNumber=0000000000000000001"
+  },
+  "attachmentsInfo": {
+   "attachmentInfo": [
+    {
+     "publishedContentId": "0000000000000000000000000000625D",
+     "fileName": "Приложение_1_Обоснование НМЦК  13.92.29 Салфетка Микрофибра.doc",
+     "fileSize": "33792",
+     "docDescription": "Приложение_1_Обоснование НМЦК  13.92.29 Салфетка Микрофибра",
+     "docDate": "2026-10-16T04:11:19+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "MRJ",
+      "name": "Обоснование начальной (максимальной) цены контракта"
+     }
+    },
+    {
+     "publishedContentId": "0000000000000000000000000000BB64",
+     "fileName": "Приложение_2_Проект контракта_ 13,92 САЛФЕТКИ МИКРОФИБРА.doc",
+     "fileSize": "202240",
+     "docDescription": "Приложение_2_Проект контракта_ 13,92 САЛФЕТКИ МИКРОФИБРА",
+     "docDate": "2026-10-16T04:12:38+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "CP",
+      "name": "Проект контракта"
+     }
+    },
+    {
+     "publishedContentId": "000000000000000000000000000026EF",
+     "fileName": "Приложение 3_ОПИСАНИЕ 13,92 САЛФЕТКИ МИКРОФИБРА.doc",
+     "fileSize": "118272",
+     "docDescription": "Приложение 3_ОПИСАНИЕ 13,92 САЛФЕТКИ МИКРОФИБРА",
+     "docDate": "2026-10-16T04:13:41+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "POD",
+      "name": "Описание объекта закупки"
+     }
+    },
+    {
+     "publishedContentId": "000000000000000000000000000018DE",
+     "fileName": "Требования к содержанию, составу заявки на участие в закупке.docx",
+     "fileSize": "32736",
+     "docDescription": "Требования к содержанию, составу заявки на участие в закупке",
+     "docDate": "2026-10-16T04:14:03+03:00",
+     "url": "https://zakupki.gov.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=ПРИМЕР",
+     "docKindInfo": {
+      "code": "CAR",
+      "name": "Требование к содержанию, составу заявки на участие в закупке"
+     }
+    }
+   ]
+  },
+  "serviceSigns": {
+   "isControlP1Ch5St99": "true"
+  },
+  "notificationInfo": {
+   "procedureInfo": {
+    "collectingInfo": {
+     "startDT": "2026-10-19T09:41:43+07:00",
+     "endDT": "2026-11-16T08:00:00+07:00"
+    },
+    "biddingDate": "2026-11-16+07:00",
+    "summarizingDate": "2026-11-18+07:00"
+   },
+   "contractConditionsInfo": {
+    "maxPriceInfo": {
+     "maxPrice": "39636.81",
+     "currency": {
+      "code": "RUB",
+      "name": "РОССИЙСКИЙ РУБЛЬ"
+     }
+    }
+   },
+   "customerRequirementsInfo": {
+    "customerRequirementInfo": {
+     "customer": {
+      "regNum": "19591402099",
+      "consRegistryNum": "30722892",
+      "fullName": "ПРИМЕР: ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ «ЗАКАЗЧИК-ПРИМЕР»"
+     },
+     "contractGuarantee": {
+      "account": {
+       "bik": "055835055",
+       "settlementAccount": "87215115175819175410",
+       "personalAccount": "См. прилагаемые документы"
+      },
+      "procedureInfo": "Контракт заключается после предоставления участником закупки, с которым заключается контракт, обеспечения исполнения контракта. Способами обеспечения исполнения Контракта являются: независимая гарантия, выданная банком и соответствующая требованиям п. 6.7 Контракта, или внесение денежных средств на указанный Заказчиком счет, на котором в соответствии с законодательством Российской Федерации учитываются операции со средствами, находящимися во временном распоряжении.\nВ случае непредоставления участником закупки, с которым заключается контракт, обеспечения исполнения контракта в срок, установленный для заключения контракта, такой участник считается уклонившимся от заключения контракта. Исполнение контракта, может также обеспечиваться предоставлением независимой гарантии.\nВ случае, если предложенные в заявке участника закупки цена, сумма цен единиц товара, работы, услуги снижены на двадцать пять и более процентов по отношению к начальной (максимальной) цене контракта, начальной сумме цен единиц товара, работы, услуги, участник закупки, с которым заключается контракт, предоставляет обеспечение исполнения контракта с учетом положений статьи 37 настоящего Федерального закона. \nУчастник закупки, с которым заключается контракт по результатам определения поставщика (подрядчика, исполнителя) в соответствии с пунктом 1 части 1 статьи 30 настоящего Федерального закона, освобождается от предоставления обеспечения исполнения контракта, в том числе с учетом положений статьи 37 настоящего Федерального закона, от обеспечения гарантийных обязательств в случае предоставления таким участником закупки информации, содержащейся в реестре контрактов, заключенных заказчиками, и подтверждающей исполнение таким участником (без учета правопреемства) в течение трех лет до даты подачи заявки на участие в закупке трех контрактов, исполненных без применения к такому участнику неустоек (штрафов, пеней). сумма цен таких контрактов должна составлять не менее начальной (максимальной) цены контракта",
+      "part": "5.0"
+     },
+     "contractConditionsInfo": {
+      "maxPriceInfo": {
+       "maxPrice": "39636.81"
+      },
+      "mustPublicDiscussion": "false",
+      "IKZInfo": {
+       "purchaseCode": "571014726071244304255744095205842857",
+       "publishYear": "2026",
+       "OKPD2Info": {
+        "OKPD2": {
+         "OKPDCode": "13.92",
+         "OKPDName": "Изделия текстильные готовые (кроме одежды)"
+        }
+       },
+       "KVRInfo": {
+        "KVR": {
+         "code": "244",
+         "name": "Прочая закупка товаров, работ и услуг"
+        }
+       },
+       "customerCode": "48951713310093519523",
+       "purchaseNumber": "0054",
+       "purchaseOrderNumber": "001"
+      },
+      "tenderPlan2020Info": {
+       "plan2020Number": "783114852582320335",
+       "position2020Number": "352393323421042700717023"
+      },
+      "contractExecutionPaymentPlan": {
+       "contractExecutionTermsInfo": {
+        "notRelativeTermsInfo": {
+         "startDate": "2027-01-11+03:00",
+         "endDate": "2027-04-30+03:00"
+        }
+       },
+       "financingSourcesInfo": {
+        "budgetFinancingsInfo": {
+         "budgetInfo": {
+          "code": "99010001",
+          "name": "Федеральный бюджет"
+         },
+         "budgetLevelInfo": {
+          "code": "10",
+          "name": "федеральный бюджет"
+         },
+         "OKTMOInfo": {
+          "code": "00000001",
+          "name": "Раздел 1. Муниципальные образования субъектов Российской Федерации / Федеральный бюджет"
+         }
+        },
+        "currentYear": "2026",
+        "financeInfo": {
+         "total": "39636.81",
+         "currentYear": "0.00",
+         "firstYear": "39636.81",
+         "secondYear": "0.00",
+         "subsecYears": "0.00"
+        }
+       },
+       "stagesInfo": {
+        "stageInfo": {
+         "sid": "23423700",
+         "termsInfo": {
+          "notRelativeTermsInfo": {
+           "startDate": "2027-01-11+03:00",
+           "endDate": "2027-04-30+03:00"
+          }
+         },
+         "budgetFinancingsInfo": {
+          "budgetFinancingInfo": {
+           "KBK": "05506474404386011161",
+           "paymentYearInfo": {
+            "total": "39636.81",
+            "currentYear": "0.00",
+            "firstYear": "39636.81",
+            "secondYear": "0.00",
+            "subsecYears": "0.00"
+           }
+          }
+         }
+        }
+       }
+      },
+      "BOInfo": {
+       "BONumber": "9410255604504555343",
+       "BODate": "2026-10-16T00:00:00+03:00",
+       "inputBOFlag": "auto"
+      },
+      "deliveryPlacesInfo": {
+       "byGARInfo": {
+        "sid": "20258138",
+        "countryInfo": {
+         "countryCode": "643",
+         "countryFullName": "Российская Федерация"
+        },
+        "GARInfo": {
+         "GARGuid": "00000000-0000-0000-0000-000000000000",
+         "GARAddress": "ПРИМЕР: 630000, Новосибирская область, г. Новосибирск, ул. Примерная, д. 1"
+        },
+        "deliveryPlace": "ПРИМЕР: с подъемом на 7 этаж"
+       }
+      },
+      "isOneSideRejectionSt95": "true",
+      "isExecutionStagesTerms": "false"
+     },
+     "addInfo": "ПРИМЕР: банковские реквизиты заказчика удалены."
+    }
+   },
+   "purchaseObjectsInfo": {
+    "notDrugPurchaseObjectsInfo": {
+     "purchaseObject": {
+      "sid": "205179333",
+      "KTRU": {
+       "code": "13.92.29.110-00000001",
+       "name": "Тряпка для очистки поверхностей",
+       "versionId": "324457",
+       "versionNumber": "4",
+       "characteristics": {
+        "characteristicsUsingReferenceInfo": [
+         {
+          "sid": "555456031",
+          "code": "a95b16f5-c",
+          "name": "Вид материала",
+          "type": "1",
+          "kind": "3",
+          "values": {
+           "value": {
+            "sid": "310385343",
+            "qualityDescription": "Микрофибра"
+           }
+          },
+          "characteristicsFillingInstruction": {
+           "code": "6",
+           "name": "Значение характеристики не может изменяться участником закупки"
+          }
+         },
+         {
+          "sid": "195421252",
+          "code": "9252bef5-6",
+          "name": "Назначение",
+          "type": "1",
+          "kind": "2",
+          "values": {
+           "value": {
+            "sid": "754351040",
+            "qualityDescription": "Для удаления пыли"
+           }
+          },
+          "characteristicsFillingInstruction": {
+           "code": "6",
+           "name": "Значение характеристики не может изменяться участником закупки"
+          }
+         },
+         {
+          "sid": "025830335",
+          "code": "19d604b3-2",
+          "name": "Требования к исполнению",
+          "type": "1",
+          "kind": "3",
+          "values": {
+           "value": {
+            "sid": "385065559",
+            "qualityDescription": "Обработка срезов оверлоком"
+           }
+          },
+          "characteristicsFillingInstruction": {
+           "code": "6",
+           "name": "Значение характеристики не может изменяться участником закупки"
+          }
+         }
+        ],
+        "characteristicsUsingTextForm": [
+         {
+          "sid": "395313182",
+          "name": "Ширина",
+          "type": "2",
+          "characteristicsFillingInstruction": {
+           "code": "2",
+           "name": "Участник закупки указывает в заявке конкретное значение характеристики"
+          },
+          "values": {
+           "value": {
+            "sid": "540641084",
+            "rangeSet": {
+             "outValueRange": {
+              "maxMathNotation": "less",
+              "max": "30"
+             }
+            }
+           }
+          }
+         },
+         {
+          "sid": "935962701",
+          "name": "Длина",
+          "type": "2",
+          "characteristicsFillingInstruction": {
+           "code": "2",
+           "name": "Участник закупки указывает в заявке конкретное значение характеристики"
+          },
+          "values": {
+           "value": {
+            "sid": "239422123",
+            "rangeSet": {
+             "outValueRange": {
+              "maxMathNotation": "less",
+              "max": "30"
+             }
+            }
+           }
+          }
+         }
+        ],
+        "addCharacteristicInfoReason": "В соответствии с требованиями п.1 ч.1 ст. 33 Закона 44-ФЗ в описании объекта закупки указываются функциональные, технические и качественные характеристики, эксплуатационные характеристики объекта закупки (при необходимости). В связи с тем, что характеристики, указанные в КТРУ не являются исчерпывающими и не позволяют точно определить качественные, функциональные и технические характеристики закупаемого товара, заказчиком установлены дополнительные характеристики."
+       },
+       "OKPD2": {
+        "OKPDCode": "13.92.29.110",
+        "OKPDName": "Тряпки для мытья полов, посуды, удаления пыли"
+       }
+      },
+      "name": "Тряпка для очистки поверхностей",
+      "OKEI": {
+       "code": "796",
+       "nationalCode": "шт",
+       "name": "Штука"
+      },
+      "price": "60.33",
+      "quantity": {
+       "value": "657.00000000000"
+      },
+      "sum": "39636.81",
+      "type": "PRODUCT",
+      "hierarchyType": "ND",
+      "restrictionsInfo": {
+       "isProhibitionForeignPurchaseObjects": "true",
+       "isRestrictForeignPurchaseObjects": "false",
+       "isPreferenseRFPurchaseObjects": "false",
+       "isImposibilityProhibition": "false"
+      },
+      "isSoftware": "false"
+     },
+     "totalSum": "39636.81",
+     "quantityUndefined": "false"
+    }
+   },
+   "preferensesInfo": {
+    "preferenseInfo": {
+     "preferenseRequirementInfo": {
+      "shortName": "PVS33044",
+      "name": "Преимущество в соответствии с ч. 3 ст. 30 Закона № 44-ФЗ"
+     }
+    }
+   },
+   "requirementsInfo": {
+    "requirementInfo": [
+     {
+      "preferenseRequirementInfo": {
+       "shortName": "ET44",
+       "name": "Единые требования к участникам закупок в соответствии с ч. 1 ст. 31 Закона № 44-ФЗ"
+      }
+     },
+     {
+      "preferenseRequirementInfo": {
+       "shortName": "TR442",
+       "name": "Требования к участникам закупок в соответствии с ч. 1.1 ст. 31 Закона № 44-ФЗ"
+      }
+     },
+     {
+      "preferenseRequirementInfo": {
+       "shortName": "TOVNPIVR",
+       "name": "Требование об отсутствии в реестре недобросовестных поставщиков (подрядчиков, исполнителей) информации, включенной в такой реестр в связи отказом поставщика (подрядчика, исполнителя) от исполнения контракта по причине введения в отношении заказчика санкций и (или) мер ограничительного характера"
+      }
+     }
+    ]
+   },
+   "flags": {
+    "purchaseObjectsCh9St37": "false"
+   }
+  },
+  "@schemeVersion": "16.3"
+ }
+}
